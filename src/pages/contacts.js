@@ -72,9 +72,21 @@ class Contacts extends Component {
 
                                     </div>
                                 </div>
-                                <div className="col-md-12 col-sm-12 contact_info cardBox" style={{borderRadius: '20px', padding: '5%', marginTop: '10%'}}>
+                                <div className="col-md-6 col-sm-6 contact_info cardBox" style={{borderRadius: '20px', padding: '5%', marginTop: '10%'}}>
                                     <h2>Seguici sui social</h2>
-                                    <div className="row justify-content-left">
+                                    <div className="row justify-content-center">
+                                        <br/>
+                                        <div className="col-md-12 text-center">
+                                            <a href="">
+                                                <i style={{fontSize: '350%', color: '#3b5998'}} className="fab fa-facebook-square"/>
+                                            </a>
+
+                                            <a href="">
+                                                <i style={{fontSize: '350%', marginLeft: '20%', color: '#C13584'}} className="fab fa-instagram"/>
+                                            </a>
+                                        </div>
+
+
                                     </div>
                                 </div>
                             </div>

@@ -8,6 +8,7 @@ import Contacts from "../pages/contacts";
 import Lavoraconoi from "../pages/lavoraconoi";
 import Preventivo from "../pages/preventivo";
 import Prodotti from "../pages/Prodotti";
+import Footer from "../ui_components/footer";
 
 class Myrouter extends Component {
     render() {
@@ -23,6 +24,7 @@ class Myrouter extends Component {
                     <Route path="/lavoraconoi" component={Lavoraconoi}/>
                     <Route path="/preventivo" component={Preventivo}/>
                     <Route path="/prodotti" component={Prodotti}/>
+                    <Footer/>
                 </div>
             </Router>
 
