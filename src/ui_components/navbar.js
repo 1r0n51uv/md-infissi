@@ -16,7 +16,13 @@ class Navbar extends Component {
                                 <span className="icon-bar"/>
                             </button>
 
-                            <a className="navbar-brand" href="/home"><img src="images/logo.png" alt=""/>MDINFISSI</a>
+                            <a className="navbar-brand" href="index.html">
+                                <img
+                                    src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/logo%20minichini%20infissi.PNG?alt=media&token=1898be84-0538-4197-b003-cf68de944c56"
+                                    alt=""
+                                />
+                            </a>
+
                         </div>
                     </div>
 
