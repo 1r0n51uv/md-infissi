@@ -5,11 +5,7 @@ class Contacts extends Component {
         return (
             <div>
                 <section className="banner_area" data-stellar-background-ratio="0.5">
-                    <h2>Contact Us</h2>
-                    <ol className="breadcrumb">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#" className="active">Contact Us</a></li>
-                    </ol>
+                    <h2>Contatti</h2>
                 </section>
                 <div className="contact_map">
                     <iframe width="600" height="500" id="gmap_canvas"
@@ -20,25 +16,59 @@ class Contacts extends Component {
                 <section className="all_contact_info">
                     <div className="container">
                         <div className="row contact_row">
-                            <div className="col-sm-6 contact_info">
-                                <h2>Contact Info</h2>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                    suffered alteration in some form, by injected humour, or randomised words which
-                                    don't look even slightly believable. If you are going to use a passage of Lorem
-                                    Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of
-                                    text.</p>
-                                <div className="location">
-                                    <div className="location_laft">
-                                        <a className="f_location" href="#">location</a>
-                                        <a href="#">phone</a>
-                                        <a href="#">email</a>
+                            <div className="col-md-6 col-sm-6 contact_info cardBox" style={{borderRadius: '20px', padding: '5%'}}>
+                                <h2>Informazioni</h2>
+                                <div className="row justify-content-left">
+
+                                    <div>
+                                        <div className="col-md-3 text-left" style={{marginTop: '3%'}}>
+                                            <h4><i className="fas fa-map-marker-alt"/> <b>Dove siamo:</b></h4>
+                                        </div>
+                                        <div className="col-md-8 text-left" style={{marginTop: '3%'}}>
+                                            <a href="#" style={{color: '#f6b60b'}}>
+                                                <h4>Via Farricella, 1 Traversa n°18</h4>
+                                                <h4>Striano (NA)</h4>
+                                            </a>
+                                        </div>
+
                                     </div>
-                                    <div className="address">
-                                        <a href="#">Traversa I Farricella, 30 <br/> Striano (NA)</a>
-                                        <a href="#">081 8277044</a>
-                                        <a href="#">info@thethemspro.com</a>
+
+                                    <div>
+                                        <div className="col-md-3 text-left" style={{marginTop: '3%'}}>
+                                            <h4><i className="fas fa-phone-square"/> <b>Telefono:</b></h4>
+                                        </div>
+                                        <div className="col-md-8 text-left" style={{marginTop: '3%'}}>
+                                            <a style={{color: '#f6b60b'}} href="">
+                                                <h4>081-8277044</h4>
+                                            </a>
+                                            <br/>
+                                            <a style={{color: '#f6b60b'}} href="">
+                                                <h4>333-2508277</h4>
+                                            </a>
+                                        </div>
+
                                     </div>
+
+                                    <div>
+                                        <div className="col-md-3 text-left" style={{marginTop: '3%'}}>
+                                            <h4><i className="fas fa-envelope-open"/> <b>Email:</b></h4>
+                                        </div>
+                                        <div className="col-md-8 text-left" style={{marginTop: '3%'}}>
+                                            <a href="#" style={{color: '#f6b60b'}}>
+                                                <h4>mdinfissisrl@alice.it</h4>
+                                            </a>
+                                        </div>
+
+                                    </div>
+
                                 </div>
+                            </div>
+
+                            <div className="col-md-5 col-sm-5 col-md-offset-1 about_client about_pages_client" style={{marginTop: '10%'}}>
+                                <img
+                                    style={{borderRadius: '20px'}}
+                                    className="cardBox img-responsive"
+                                    src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/contacts%2F2451377.jpg?alt=media&token=d3ad7b5f-0bca-44a9-9773-6bf0e96ccb43" alt=""/>
                             </div>
 
                         </div>

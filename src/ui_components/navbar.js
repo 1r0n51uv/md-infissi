@@ -36,39 +36,8 @@ class Navbar extends Component {
 
                                 <li className="dropdown submenu">
 
-                                    <Link className="dropdown-toggle" data-toggle="dropdown" to="prodotti">Prodotti</Link>
+                                    <Link to="/prodotti">Prodotti</Link>
 
-                                    <ul className="dropdown-menu other_dropdwn">
-                                        <li>
-                                            <Link to="/prodotti/pvc">PVC</Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/prodotti/alluminiolegno">Alluminio-Legno</Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/prodotti/grate">Grate in ferro</Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/prodotti/porte">Porte Blindate</Link>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                                <li className="dropdown submenu">
-                                    <a href="#/" className="dropdown-toggle" data-toggle="dropdown">Preventivo online</a>
-                                    <ul className="dropdown-menu other_dropdwn" style={{marginRight: '-30%'}}>
-                                        <li>
-                                            <Link to="/preventivo">PVC</Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/preventivo">Alluminio-Legno</Link>
-                                        </li>
-
-                                    </ul>
-                                </li>
-
-                                <li>
-                                    <Link to="/lavoraconoi">Lavora con noi</Link>
                                 </li>
 
                                 <li>
