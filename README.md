@@ -1,5 +1,4 @@
-[![Actions Status](https://github.com/1r0n51uv/md-infissi/workflows/Node%CI/badge.svg)](https://github.com/{owner}/md-infissi/actions)
-
+![badge](https://action-badges.now.sh/1r0n51uv/md-infissi)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
