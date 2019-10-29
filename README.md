@@ -1,3 +1,6 @@
+![badge](https://action-badges.now.sh/1r0n51uv/md-infissi)
+[![Depfu](https://badges.depfu.com/badges/33d5ed0bfc9b31dd32f3bbaddcff880e/count.svg)](https://depfu.com/github/1r0n51uv/md-infissi?project_id=10006)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
