@@ -7,8 +7,7 @@ import Azienda from "../pages/azienda";
 import Contacts from "../pages/contacts";
 import Lavoraconoi from "../pages/lavoraconoi";
 import Preventivo from "../pages/preventivo";
-import Pvc from "../pages/PVC";
-import PorteBlindate from "../pages/porteBlindate";
+import Prodotti from "../pages/Prodotti";
 
 class Myrouter extends Component {
     render() {
@@ -23,8 +22,7 @@ class Myrouter extends Component {
                     <Route path="/contatti" component={Contacts}/>
                     <Route path="/lavoraconoi" component={Lavoraconoi}/>
                     <Route path="/preventivo" component={Preventivo}/>
-                    <Route path="/prodotti/pvc" component={Pvc}/>
-                    <Route path="/prodotti/porte" component={PorteBlindate}/>
+                    <Route path="/prodotti" component={Prodotti}/>
                 </div>
             </Router>
 
