@@ -39,11 +39,12 @@ class Azienda extends Component {
 
                           </div>
                           <div className="col-md-5 col-md-offset-1 about_client about_pages_client">
-
                               <img
                                   style={{marginTop: '5%'}}
                                   className="cardBox2"
                                   src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/home%2Fscheda%20tecnica%20fc68tt.PNG?alt=media&token=a7ef9d7c-21e8-43ba-92b1-a087021218eb" alt=""/>
+
+
                           </div>
                       </div>
                   </div>

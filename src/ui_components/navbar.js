@@ -39,11 +39,21 @@ class Navbar extends Component {
                                     <Link to="/azienda">Azienda</Link>
                                 </li>
 
-
                                 <li className="dropdown submenu">
 
-                                    <Link to="/prodotti">Prodotti</Link>
+                                    <Link className="dropdown-toggle" data-toggle="dropdown" to="#">Prodotti</Link>
 
+                                    <ul className="dropdown-menu other_dropdwn">
+                                        <li>
+                                            <Link to="/prodotti/serramenti">Serramenti</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="/prodotti/alluminiolegno">Porte blindate</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="/prodotti/grate">Zanzariere</Link>
+                                        </li>
+                                    </ul>
                                 </li>
 
                                 <li>

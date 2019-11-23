@@ -6,6 +6,7 @@ import testimonial1 from '../../res/testimonial-1.jpg'
 import testimonial2 from '../../res/testimonial-2.jpg'
 import testimonial3 from '../../res/testimonial-3.jpg'
 import testimonial4 from '../../res/testimonial-4.jpg'
+import {Carousel} from "react-responsive-carousel";
 
 
 class ClientsReviews extends Component {
@@ -14,19 +15,42 @@ class ClientsReviews extends Component {
             <section className="testimonial_area row" style={{backgroundColor: '#D5D5D5'}}>
                 <div className="testimonial_carosel">
                     <div className="container">
+
+
+                        <Carousel
+                            autoPlay={true}
+                            infiniteLoop={true}
+                            showThumbs={false}
+                            showStatus={false}
+                            dynamicHeight={true}
+                            interval={4000}
+                            showArrows={true}
+                        >
+
+                        </Carousel>
+
                         <AliceCarousel
                             buttonsDisabled={true}
                             dotsDisabled={true}
                             infinite={true}
-                            autoPlayInterval={4000}
+                            autoPlayInterval={2000}
                             autoPlay={true}
-                            fadeOutAnimation={true}
-                        >
+                            fadeOutAnimation={true}>
+
+
+
+
+
                             <div className="item text-center">
                                 <div className="media">
+                                    <div className="media-left" style={{display: 'none'}}>
+                                        <a href="#">
+                                            <img className="media-object img-circle"  src={testimonial3} alt=""/>
+                                        </a>
+                                    </div>
                                     <div className="media-body" >
-                                        <h4 style={{color: 'black'}} className="media-heading">Emran Khan</h4>
-                                        <h6>Web Developer</h6>
+                                        <h4 style={{color: 'black'}} className="media-heading"> </h4>
+                                        <h6> </h6>
 
                                     </div>
 
@@ -46,14 +70,14 @@ class ClientsReviews extends Component {
                             </div>
                             <div className="item text-center">
                                 <div className="media">
-                                    <div className="media-left">
+                                    <div className="media-left" style={{display: 'none'}}>
                                         <a href="#">
-                                            <img className="media-object img-circle" src={testimonial2} alt=""/>
+                                            <img className="media-object img-circle"  src={testimonial3} alt=""/>
                                         </a>
                                     </div>
                                     <div className="media-body" >
-                                        <h4 style={{color: 'black'}} className="media-heading">Emran Khan</h4>
-                                        <h6>Web Developer</h6>
+                                        <h4 style={{color: 'black'}} className="media-heading"> </h4>
+                                        <h6> </h6>
 
                                     </div>
 
@@ -65,37 +89,7 @@ class ClientsReviews extends Component {
                                 <i style={{color: 'black'}} className="fas fa-star"/>
 
                                 <p style={{color: 'black'}}><i className="fa fa-quote-right" style={{color: 'black'}} aria-hidden="true"/>At vero eos et accusamus et iusto
-                                    odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti
-                                    quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,
-                                    similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum
-                                    fuga. Et harum quidem rerum facilis est et expedita distinctio<i
-                                        className="fa fa-quote-left" style={{color: 'black'}} aria-hidden="true"/></p>
-                            </div>
-                            <div className="item text-center">
-                                <div className="media">
-                                    <div className="media-left">
-                                        <a href="#">
-                                            <img className="media-object img-circle" src={testimonial3} alt=""/>
-                                        </a>
-                                    </div>
-                                    <div className="media-body" >
-                                        <h4 style={{color: 'black'}} className="media-heading">Emran Khan</h4>
-                                        <h6>Web Developer</h6>
-
-                                    </div>
-
-                                </div>
-                                <i style={{color: 'black'}} className="fas fa-star"/>
-                                <i style={{color: 'black'}} className="fas fa-star"/>
-                                <i style={{color: 'black'}} className="fas fa-star"/>
-                                <i style={{color: 'black'}} className="fas fa-star"/>
-                                <i style={{color: 'black'}} className="fas fa-star"/>
-
-                                <p style={{color: 'black'}}><i className="fa fa-quote-right" style={{color: 'black'}} aria-hidden="true"/>At vero eos et accusamus et iusto
-                                    odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti
-                                    quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,
-                                    similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum
-                                    fuga. Et harum quidem rerum facilis est et expedita distinctio<i
+                                    odio dignissimos ducimus qui bhdjn,o<i
                                         className="fa fa-quote-left" style={{color: 'black'}} aria-hidden="true"/></p>
                             </div>
 
