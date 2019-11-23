@@ -46,6 +46,7 @@ class WindowFrames extends Component {
                                 <div className="col-md-12 row">
                                     {/* SCORREVOLE PVC */}
                                     <WindowFrameCard
+                                        link="/serramenti/scorrevoli_pvc"
                                         title="SCORREVOLE PVC"
                                         image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FImmagine1%20scorrevole%20pvc.png?alt=media&token=ec3e8a48-4d0c-4326-82b4-b881d1efe76b"
                                     />
@@ -70,12 +71,11 @@ class WindowFrames extends Component {
 
                                 <div className="col-md-12 row">
 
-                                    {/* ALZANTE ALLUMINIO-LEGNO */}
+                                    {/* ALZANTE PVC */}
                                     <WindowFrameCard
-                                        title="ALZANTE ALLUMINIO-LEGNO"
-                                        image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FImmagine1%20alzante%20alluminio-legno.png?alt=media&token=ef183725-a204-495e-bc91-106adb88c246"
+                                        title="ALZANTE PVC"
+                                        image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2Fimmagine%20alzante%20pvc.png?alt=media&token=24ca91aa-d1fe-4ec8-aae2-fe9849ca5ea2"
                                     />
-
 
                                     <div className="col-md-1 col-xs-1 "/>
 
@@ -86,11 +86,13 @@ class WindowFrames extends Component {
                                     />
 
                                     <div className="col-md-1 col-xs-1 "/>
-                                    {/* ALZANTE PVC */}
+
+                                    {/* ALZANTE ALLUMINIO-LEGNO */}
                                     <WindowFrameCard
-                                        title="ALZANTE PVC"
-                                        image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2Fimmagine%20alzante%20pvc.png?alt=media&token=24ca91aa-d1fe-4ec8-aae2-fe9849ca5ea2"
+                                        title="ALZANTE ALLUMINIO-LEGNO"
+                                        image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FImmagine1%20alzante%20alluminio-legno.png?alt=media&token=ef183725-a204-495e-bc91-106adb88c246"
                                     />
+
 
                                 </div>
 

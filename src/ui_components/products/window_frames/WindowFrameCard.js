@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import {Redirect} from "react-router-dom";
+
 
 export default class WindowFrameCard extends Component {
     constructor(props) {
@@ -14,6 +16,7 @@ export default class WindowFrameCard extends Component {
             <div className="who_we_area col-md-3 col-xs-5 cardBox2"
                  onMouseOver={() => {this.setState({size: '85'})}}
                  onMouseLeave={() => {this.setState({size: '80'})}}
+                 onClick={() => { window.location = this.props.link}}
                  style={{
                 padding: "2%",
                 borderRadius: "20px"

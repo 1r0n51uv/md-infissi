@@ -1,5 +1,6 @@
 ![badge](https://action-badges.now.sh/1r0n51uv/md-infissi)
 [![Depfu](https://badges.depfu.com/badges/33d5ed0bfc9b31dd32f3bbaddcff880e/count.svg)](https://depfu.com/github/1r0n51uv/md-infissi?project_id=10006)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/09c1133c-cf97-4fb9-b69d-f9b63d505642/deploy-status)](https://app.netlify.com/sites/mdinfissi/deploys)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

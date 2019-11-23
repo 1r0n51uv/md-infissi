@@ -10,6 +10,7 @@ import Preventivo from "../pages/preventivo";
 import Prodotti from "../pages/Prodotti";
 import Footer from "../ui_components/footer";
 import WindowFrames from "../ui_components/products/window_frames/windowFrames";
+import ScorrevolePvc from "../ui_components/products/window_frames/scorrevolePVC";
 
 
 class Myrouter extends Component {
@@ -25,8 +26,12 @@ class Myrouter extends Component {
                     <Route path="/contatti" component={Contacts}/>
                     <Route path="/lavoraconoi" component={Lavoraconoi}/>
                     <Route path="/preventivo" component={Preventivo}/>
+
                     <Route exact path="/prodotti" component={Prodotti}/>
+
                     <Route path="/prodotti/serramenti" component={WindowFrames}/>
+                    <Route exact path="/serramenti" component={WindowFrames}/>
+                    <Route path="/serramenti/scorrevoli_pvc" component={ScorrevolePvc}/>
 
                     <Footer/>
                 </div>
