@@ -9,7 +9,7 @@ import Lavoraconoi from "../pages/lavoraconoi";
 import Preventivo from "../pages/preventivo";
 import Prodotti from "../pages/Prodotti";
 import Footer from "../ui_components/footer";
-import WindowFrames from "../ui_components/products/window_frames/windowFrames";
+import WindowFrames from "../ui_components/products/window_frames/mainPage/windowFrames";
 import ScorrevolePvc from "../ui_components/products/window_frames/scorrevolePVC";
 
 

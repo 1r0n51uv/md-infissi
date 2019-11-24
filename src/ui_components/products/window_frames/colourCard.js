@@ -4,9 +4,9 @@ class ColourCard extends Component {
     render() {
         return (
 
-                <div className="who_we_area col-md-2 col-xs-4 cardBox2"
+                <div className="who_we_area col-md-10 col-xs-12"
                      style={{
-                         padding: "2%",
+                         padding: "5%",
                          borderRadius: "20px"
                      }}>
                     <img
@@ -15,8 +15,8 @@ class ColourCard extends Component {
                         src={this.props.image}
                         alt=""/>
                     <hr/>
-                    <div className="subtittle">
-                        <h2 style={{fontSize: '150%'}}>{this.props.title}</h2>
+                    <div className="panel-title">
+                        <h4 style={{fontFamily: 'Oswald'}}>{this.props.title}</h4>
                     </div>
 
                 </div>

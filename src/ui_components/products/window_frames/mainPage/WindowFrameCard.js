@@ -13,12 +13,12 @@ export default class WindowFrameCard extends Component {
     render() {
         return (
 
-            <div className="who_we_area col-md-3 col-xs-5 cardBox2"
+            <div className="who_we_area col-md-8 col-xs-10 cardBox2"
                  onMouseOver={() => {this.setState({size: '85'})}}
                  onMouseLeave={() => {this.setState({size: '80'})}}
                  onClick={() => { window.location = this.props.link}}
                  style={{
-                padding: "2%",
+                padding: "5%",
                 borderRadius: "20px"
             }}>
                 <img
@@ -27,8 +27,8 @@ export default class WindowFrameCard extends Component {
                     src={this.props.image}
                     alt=""/>
                 <hr/>
-                <div className="subtittle">
-                    <h2 style={{fontSize: '150%'}}>{this.props.title}</h2>
+                <div className="panel-title">
+                    <h2 style={{fontSize: '150%', fontFamily: 'Oswald'}}>{this.props.title}</h2>
                 </div>
 
             </div>
