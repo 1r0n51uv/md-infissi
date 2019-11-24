@@ -31,7 +31,6 @@ class SinglePanelDoorSlider extends Component {
                             <img src={this.state.img} className="img-responsive" alt=""/>
                             <p>{this.props.code}</p>
                         </div>
-
                     </Modal>
                 </div>
         );

@@ -13,6 +13,7 @@ import WindowFrames from "../ui_components/products/window_frames/windowFrames";
 import ScorrevolePvc from "../ui_components/products/window_frames/subPages/pvc/scorrevolePVC";
 import BattentePvc from "../ui_components/products/window_frames/subPages/pvc/battentePVC";
 import AlzantePvc from "../ui_components/products/window_frames/subPages/pvc/alzantePVC";
+import BattenteAl from "../ui_components/products/window_frames/subPages/alluminio/battenteAL";
 
 
 class Myrouter extends Component {
@@ -33,9 +34,12 @@ class Myrouter extends Component {
 
                     <Route path="/prodotti/serramenti" component={WindowFrames}/>
                     <Route exact path="/serramenti" component={WindowFrames}/>
+
                     <Route path="/serramenti/scorrevoli_pvc" component={ScorrevolePvc}/>
                     <Route path="/serramenti/battente_pvc" component={BattentePvc}/>
                     <Route path="/serramenti/alzante_pvc" component={AlzantePvc}/>
+
+                    <Route path="/serramenti/battente_al" component={BattenteAl}/>
 
                     <Footer/>
                 </div>

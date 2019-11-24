@@ -98,7 +98,6 @@ class DoorSlider extends Component {
                         />
 
 
-
                     </AliceCarousel>
 
 

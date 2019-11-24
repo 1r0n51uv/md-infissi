@@ -37,6 +37,7 @@ class WindowFrames extends Component {
 
                                             {/* FINESTRA ALLUMINO */}
                                             <WindowFrameCard
+                                                link="/serramenti/battente_al"
                                                 title="FINESTRA ALLUMINIO"
                                                 image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2Fimmagine%20FINESTRA%20alluminio.png?alt=media&token=8cdc87f5-49c7-4ec5-9568-7aa0a153a974"
                                             />
