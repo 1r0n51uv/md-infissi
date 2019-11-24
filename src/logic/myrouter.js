@@ -9,8 +9,10 @@ import Lavoraconoi from "../pages/lavoraconoi";
 import Preventivo from "../pages/preventivo";
 import Prodotti from "../pages/Prodotti";
 import Footer from "../ui_components/footer";
-import WindowFrames from "../ui_components/products/window_frames/mainPage/windowFrames";
-import ScorrevolePvc from "../ui_components/products/window_frames/scorrevolePVC";
+import WindowFrames from "../ui_components/products/window_frames/windowFrames";
+import ScorrevolePvc from "../ui_components/products/window_frames/subPages/pvc/scorrevolePVC";
+import BattentePvc from "../ui_components/products/window_frames/subPages/pvc/battentePVC";
+import AlzantePvc from "../ui_components/products/window_frames/subPages/pvc/alzantePVC";
 
 
 class Myrouter extends Component {
@@ -32,6 +34,8 @@ class Myrouter extends Component {
                     <Route path="/prodotti/serramenti" component={WindowFrames}/>
                     <Route exact path="/serramenti" component={WindowFrames}/>
                     <Route path="/serramenti/scorrevoli_pvc" component={ScorrevolePvc}/>
+                    <Route path="/serramenti/battente_pvc" component={BattentePvc}/>
+                    <Route path="/serramenti/alzante_pvc" component={AlzantePvc}/>
 
                     <Footer/>
                 </div>

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import WindowFrameCard from "./WindowFrameCard";
+import WindowFrameCard from "./components/WindowFrameCard";
 
 class WindowFrames extends Component {
     render() {
@@ -15,7 +15,7 @@ class WindowFrames extends Component {
                         <div className="row about_row about_us2_pages">
 
                             <div className="col-md-11 col-md-offset-1">
-                                <table className="table-responsive">
+                                <table className="table-responsive" style={{borderColor: 'white'}}>
 
                                     <tbody>
 
@@ -27,6 +27,7 @@ class WindowFrames extends Component {
                                         <td>
                                             {/* FINESTRA PVC */}
                                             <WindowFrameCard
+                                                link="/serramenti/battente_pvc"
                                                 title="FINESTRA PVC"
                                                 image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2Fimmagine%20FINESTRA%20pvc.png?alt=media&token=362a8763-5f5a-428e-b93f-cbdcd2e6672e"
                                             />
@@ -88,6 +89,7 @@ class WindowFrames extends Component {
 
                                             {/* ALZANTE PVC */}
                                             <WindowFrameCard
+                                                link="/serramenti/alzante_pvc"
                                                 title="ALZANTE PVC"
                                                 image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2Fimmagine%20alzante%20pvc.png?alt=media&token=24ca91aa-d1fe-4ec8-aae2-fe9849ca5ea2"
                                             />

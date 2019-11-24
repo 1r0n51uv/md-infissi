@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ColourCard from "./colourCard";
+import ColourCard from "../../components/colourCard";
 
 class ScorrevolePvc extends Component {
     render() {
@@ -30,7 +30,7 @@ class ScorrevolePvc extends Component {
                                     alt=""/>
                             </div>
 
-                            <div className="col-md-6">
+                            <div className="col-md-6 wow fadeInLeft">
 
                                 <h2>4003</h2>
 

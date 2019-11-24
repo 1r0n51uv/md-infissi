@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import {Redirect} from "react-router-dom";
-
 
 export default class WindowFrameCard extends Component {
     constructor(props) {
@@ -27,8 +25,8 @@ export default class WindowFrameCard extends Component {
                     src={this.props.image}
                     alt=""/>
                 <hr/>
-                <div className="panel-title">
-                    <h2 style={{fontSize: '150%', fontFamily: 'Oswald'}}>{this.props.title}</h2>
+                <div className="panel-title text-center" style={{padding: '5%'}}>
+                    <h2 style={{fontSize: '100%', fontFamily: 'Oswald'}}>{this.props.title}</h2>
                 </div>
 
             </div>
