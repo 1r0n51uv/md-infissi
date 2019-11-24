@@ -14,6 +14,7 @@ import ScorrevolePvc from "../ui_components/products/window_frames/subPages/pvc/
 import BattentePvc from "../ui_components/products/window_frames/subPages/pvc/battentePVC";
 import AlzantePvc from "../ui_components/products/window_frames/subPages/pvc/alzantePVC";
 import BattenteAl from "../ui_components/products/window_frames/subPages/alluminio/battenteAL";
+import ScorrevoleAl from "../ui_components/products/window_frames/subPages/alluminio/scorrevoleAl";
 
 
 class Myrouter extends Component {
@@ -40,6 +41,7 @@ class Myrouter extends Component {
                     <Route path="/serramenti/alzante_pvc" component={AlzantePvc}/>
 
                     <Route path="/serramenti/battente_al" component={BattenteAl}/>
+                    <Route path="/serramenti/scorrevole_al" component={ScorrevoleAl}/>
 
                     <Footer/>
                 </div>

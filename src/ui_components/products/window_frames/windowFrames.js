@@ -69,6 +69,7 @@ class WindowFrames extends Component {
                                         <td>
                                             {/* SCORREVOLE ALLUMINIO */}
                                             <WindowFrameCard
+                                                link="/serramenti/scorrevole_al"
                                                 title="SCORREVOLE ALLUMINIO"
                                                 image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FImmagine1%20scorrevole%20alluminio.png?alt=media&token=ec8baa7e-25dd-4e1a-814a-2fac2bb27dc8"
                                             />

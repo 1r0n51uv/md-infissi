@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
 import AliceCarousel from "react-alice-carousel";
-import SinglePanelDoorSlider from "../../singlePanelDoorSlider";
 import ColourSliderElements from "./colourSliderElements";
 
 
-class ColourSlider extends Component {
+class ColourSliderRal extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -34,7 +33,7 @@ class ColourSlider extends Component {
                         autoPlay={true}
                         responsive={this.state.responsive}
                         mouseDragEnabled={true}
-                        autoPlayInterval={1000}
+                        autoPlayInterval={2000}
                     >
 
                         <ColourSliderElements
@@ -172,4 +171,4 @@ class ColourSlider extends Component {
     }
 }
 
-export default ColourSlider;
+export default ColourSliderRal;

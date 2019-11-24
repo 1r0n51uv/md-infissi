@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import ColourCard from "../../components/colourCard";
 import ColourSliderRal from "../../components/colourSliderRal";
 import ColourSliderWood from "../../components/colourSliderWood";
+import ColourCard from "../../components/colourCard";
 
-class BattenteAl extends Component {
+class ScorrevoleAl extends Component {
     render() {
         return (
             <div>
@@ -12,7 +12,7 @@ class BattenteAl extends Component {
                     <div className="container" style={{marginTop: '5%'}}>
 
                         <div className="tittle wow fadeInUp">
-                            <h1 style={{fontFamily: 'Oswald'}}>BATTENTE ALLUMINIO TAGLIO TERMICO</h1>
+                            <h1 style={{fontFamily: 'Oswald'}}>SCORREVOLE TAGLIO TERMICO:</h1>
                         </div>
 
                         <div className="row about_row about_us2_pages center-block">
@@ -20,21 +20,21 @@ class BattenteAl extends Component {
                             <div className="col-md-2 center-block">
 
                                 <img
-                                    src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FbattenteAL%2FSerramenti-a-taglio-termico.png?alt=media&token=c92a2c2f-0b06-4fff-9edf-a3a02b179af2"
+                                    src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FscorrevoleAL%2FANGOLO%20SCORREVOLE%20TT.PNG?alt=media&token=6e726794-a90e-4517-9a77-f2403bee3a13"
                                     className="img-responsive"
                                     alt=""/>
                             </div>
 
                             <div className="col-md-4">
                                 <img
-                                    src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FbattenteAL%2Fscheda%20tecnica%20fc68tt.PNG?alt=media&token=18da41d0-847e-42d2-976d-5cff5fdc68bc"
+                                    src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FscorrevoleAL%2FSCHEDA%20TECNICA%20SCORREVOLE%20TT.PNG?alt=media&token=984c8f31-5686-4687-ab8c-5ce0ba6a7faf"
                                     className="img-responsive"
                                     alt=""/>
                             </div>
 
                             <div className="col-md-6 wow fadeInLeft">
 
-                                <h2>HST</h2>
+                                <h2>SCORREVOLE 78S</h2>
 
                                 <hr/>
 
@@ -42,25 +42,36 @@ class BattenteAl extends Component {
 
                                 <hr/>
 
-                                <h4><b>PROFILATI ESTRUSI LEGA:</b> 6060 (UNI9006/1)</h4>
-                                <h4 style={{marginTop: '1%'}}><b>STATO FINITURA:</b> T5</h4>
-                                <h4 style={{marginTop: '1%'}}><b>TOLLERANZE:</b> UNI EN 12020-2</h4>
-                                <h4 style={{marginTop: '1%'}}><b>TIPO DI TENUTA ARIA-ACQUA:</b> GIUNTO APERTO (FINESTRE)- DOPPIA GUARNIZONE IN BATTUTA (PORTE)</h4>
-                                <h4 style={{marginTop: '1%'}}><b>TIPO DI PROFILATO:</b> A ISOLAMENTO TERMICO (con listelli in poliammide di H = 32mm)</h4>
+                                <h4><b>TIPO DI SISTEMA:</b> Scorrevole in Linea</h4>
+                                <h4 style={{marginTop: '1%'}}><b>PROFILATI ESTRUSI:</b> Lega d'alluminio 6060 Al Mg 0.5, Si 0.4, Fe 0.2 secondo le norme UNI EN 573</h4>
+                                <h4 style={{marginTop: '1%'}}><b>STATO DI FORNITURA:</b> T5 secondo la norma UNI EN 515 (equivalente TA 16)</h4>
+                                <h4 style={{marginTop: '1%'}}><b>TOLLERANZE DIMENSIONALI E SPESSORE:</b> UNI EN 12020.2 e/o UNI EN 755-9</h4>
 
                                 <hr/>
 
-                                <h4><b>DIMENSIONE BASE</b></h4>
+                                <h4><b>SISTEMA TENUTA ARIA, ACQUA E VENTO</b></h4>
 
                                 <hr/>
 
 
-                                <h4><b>TELAIO FISSO PROFONDITA':</b> 67,8 – 154,8 mm</h4>
-                                <h4 style={{marginTop: '1%'}}><b>TELAIO MOBILE PROFONDITA':</b> 75,8 – 85,7mm</h4>
-                                <h4 style={{marginTop: '1%'}}><b>ALTEZZA ALETTE SEDE DEL VETRO:</b> 22mm</h4>
-                                <h4 style={{marginTop: '1%'}}><b>SOVRAPPOSIZIONE BATTUTA INTERNA:</b> Finestra 8mm</h4>
-                                <h4 style={{marginTop: '1%'}}><b>Scalanatura tra un profilo e l’altro:</b>Finestra 4,5 mm.(esterno)/4 mm.(interno centrale)</h4>
-                                <h4 style={{marginTop: '1%'}}><b>Altezza di sovrapposizione al muro:</b> 22 mm – 58mm</h4>
+                                <h4><b>FINESTRE E PORTEFINESTRE:</b> Guarnizioni di tenuta in E.P.D.M. rivestita con sistema di drenaggio delle acque meteoriche tramite accessori a valvole ad incasso</h4>
+                                <h4 style={{marginTop: '1%'}}><b>CARATTERISTICHE PRINCIPALI:</b>
+
+                                    <br/>- Giunzioni angoli da effettuare a 45°, per il telaio e l'anta
+                                    <br/>- Chiusure laterali: possibilità di utilizzo di maniglie ad incasso o martellina. Possibilità di 2, 3 o più punti di chiusura
+                                    <br/>- Carrelli di scorrimento: registrabili con ruote montate su cuscinetti a sfera
+                                    <br/>- Sistema di drenaggio speciale con caditoie orizzontali e cassetto di evacuazione frontale
+                                </h4>
+                                <h4 style={{marginTop: '1%'}}><b>TAGLIO TERMICO:</b> Con barrette complanari in poliammide da mm 34, sia per il telaio che per l'anta </h4>
+                                <h4 style={{marginTop: '1%'}}><b>DIMENSIONE DEL SISTEMA:</b>
+                                    <br/>Telaio fisso sezione mm 78
+                                    <br/>Telaio anta sezione mm 49
+                                    <br/>Inserimento vetri variabile tra 25 e 35mm
+                                </h4>
+                                <h4 style={{marginTop: '1%'}}><b>ALTEZZA SEDE VETRO:</b> mm 21</h4>
+                                <h4 style={{marginTop: '1%'}}><b>INSERIMENTO VETRO:</b> Fermavetro con aggancio a contrasto oppure profilati a vetro infilo</h4>
+                                <h4 style={{marginTop: '1%'}}><b>GUARNIZIONI:</b> In gomma sintetica, EPDM</h4>
+                                <h4 style={{marginTop: '1%'}}><b>ACCESSORI:</b> Idonei al sistema, in materiali inossidabili, costruiti da primarie case produttrici</h4>
 
                                 <hr/>
 
@@ -179,4 +190,4 @@ class BattenteAl extends Component {
     }
 }
 
-export default BattenteAl;
+export default ScorrevoleAl;
