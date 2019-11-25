@@ -17,10 +17,10 @@ class BattenteAl extends Component {
 
                         <div className="row about_row about_us2_pages center-block">
 
-                            <div className="col-md-2 center-block">
+                            <div className="col-md-3 center-block">
 
                                 <img
-                                    src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FbattenteAL%2FSerramenti-a-taglio-termico.png?alt=media&token=c92a2c2f-0b06-4fff-9edf-a3a02b179af2"
+                                    src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FbattenteAL%2FSerramenti-a-taglio-termico.png?alt=media&token=9bf41105-9498-478d-bd5f-8795863a1089"
                                     className="img-responsive"
                                     alt=""/>
                             </div>
@@ -32,9 +32,9 @@ class BattenteAl extends Component {
                                     alt=""/>
                             </div>
 
-                            <div className="col-md-6 wow fadeInLeft">
+                            <div className="col-md-5 wow fadeInLeft">
 
-                                <h2>HST</h2>
+                                <h2>FC 68TT</h2>
 
                                 <hr/>
 
@@ -111,64 +111,7 @@ class BattenteAl extends Component {
 
                             </div>
 
-                            <div className="col-md-12 text-center center-block">
 
-
-                                <div className="row">
-
-
-                                    <div className="col-md-12">
-                                        <div className="tittle wow fadeInUp">
-                                            <h2>La nostra gamma di maniglie</h2>
-                                        </div>
-
-                                    </div>
-
-                                    <div className="col-md-10 col-md-offset-1 wow fadeInRight" style={{marginTop: '10%'}}>
-
-                                        <table className="table-responsive" style={{borderColor: 'white'}}>
-
-                                            <tbody>
-                                            <tr>
-                                                <td>
-                                                    <ColourCard
-                                                        image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FalzantePVC%2Fmaniglie%2FMANIGLIONE%20TOULON%20BIANCO.png?alt=media&token=9d004371-67ae-4566-8d32-46f6f1a7f26a"
-                                                        title=""
-                                                    />
-                                                </td>
-
-                                                <td>
-                                                    <ColourCard
-                                                        image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FalzantePVC%2Fmaniglie%2FMANIGLIONE%20CURVO%20ALZANTE.png?alt=media&token=e6998f4f-592f-45bc-ae7f-5915a84ec496"
-                                                        title=""
-                                                    />
-                                                </td>
-
-
-                                                <td>
-                                                    <ColourCard
-                                                        image="https://www.hoppe.com/medias/sys_master/root/hbf/h27/9128141488158/IMG-PRO-HS-0737-419N-AS-420-UG-F9016-SALL-APK-V1.png"
-                                                        title=""
-                                                    />
-                                                </td>
-
-                                                <td>
-                                                    <ColourCard
-                                                        image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FalzantePVC%2Fmaniglie%2FMANIGLIONE%20ORO%20ALZANTE.png?alt=media&token=e6c17b4e-9379-45da-8b1d-935c18946c0f"
-                                                        title=""
-                                                    />
-                                                </td>
-
-                                            </tr>
-                                            </tbody>
-
-                                        </table>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
 
                         </div>
 
