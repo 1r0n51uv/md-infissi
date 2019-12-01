@@ -15,6 +15,7 @@ import BattentePvc from "../ui_components/products/window_frames/subPages/pvc/ba
 import AlzantePvc from "../ui_components/products/window_frames/subPages/pvc/alzantePVC";
 import BattenteAl from "../ui_components/products/window_frames/subPages/alluminio/battenteAL";
 import ScorrevoleAl from "../ui_components/products/window_frames/subPages/alluminio/scorrevoleAl";
+import SecurityDoor from "../ui_components/products/doors/securityDoor";
 
 
 class Myrouter extends Component {
@@ -32,6 +33,8 @@ class Myrouter extends Component {
                     <Route path="/preventivo" component={Preventivo}/>
 
                     <Route exact path="/prodotti" component={Prodotti}/>
+
+                    <Route exact path="/prodotti/porteblindate" component={SecurityDoor}/>
 
                     <Route path="/prodotti/serramenti" component={WindowFrames}/>
                     <Route exact path="/serramenti" component={WindowFrames}/>

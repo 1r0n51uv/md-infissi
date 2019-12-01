@@ -92,7 +92,7 @@ This files contents are outlined below.
 .tittle h2:after {
   content: "";
   position: absolute;
-  background: #f6b60b;
+  background: #F21B22;
   height: 5px;
   width: 60px;
   left: 50%;
@@ -318,7 +318,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding-left: 30px;
 }
 .header_aera .navbar-collapse .navbar-nav.navbar-right li a:hover, .header_aera .navbar-collapse .navbar-nav.navbar-right li a:focus {
-  color: #f6b60b;
+  color: #F21B22;
 }
 .header_aera .navbar-collapse .navbar-nav.navbar-right li .nav_searchFrom {
   width: 100px;
@@ -757,12 +757,12 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 .our_feature_area .feature_row .feature_content .media .media-left a i {
   font-size: 24px;
-  color: #f6b60b;
+  color: #F21B22;
   line-height: 50px;
   width: 60px;
   text-align: center;
   background: #333333;
-  border: 5px solid #f6b60b;
+  border: 5px solid #F21B22;
 }
 .our_feature_area .feature_row .feature_content .media .media-body a {
   font: 700 18px "Roboto", sans-serif;
@@ -1966,7 +1966,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   position: absolute;
   height: 2px;
   width: 80px;
-  background: #f6b60b;
+  background: #F21B22;
   left: 0;
   bottom: 0;
 }

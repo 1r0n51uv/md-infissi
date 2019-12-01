@@ -4,14 +4,20 @@ export default class WindowFrameCard extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            size: '80'
+            size: '80',
+            col: false
+        }
+    }
+    componentDidMount() {
+        if (this.props.col) {
+            this.setState({col: this.props.col})
         }
     }
 
     render() {
         return (
 
-            <div className="who_we_area col-md-8 col-xs-10 cardBox2"
+            <div className={this.state.col ? "who_we_area col-md-10 col-xs-9 cardBox2" : "who_we_area col-md-8 col-xs-9 cardBox2"}
                  onMouseOver={() => {this.setState({size: '85'})}}
                  onMouseLeave={() => {this.setState({size: '80'})}}
                  onClick={() => { window.location = this.props.link}}

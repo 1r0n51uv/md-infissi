@@ -4,7 +4,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 class Navbar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-default header_aera" id="main_navbar">
+            <nav className="navbar navbar-default header_aera" id="main_navbar" style={{backgroundColor: '#D0D0D2'}}>
                 <div className="container">
 
                     <div className="col-md-2 p0">
@@ -43,12 +43,12 @@ class Navbar extends Component {
 
                                     <Link className="dropdown-toggle" data-toggle="dropdown" to="#">Prodotti</Link>
 
-                                    <ul className="dropdown-menu other_dropdwn">
+                                    <ul className="dropdown-menu other_dropdwn" style={{backgroundColor: '#F21B22'}}>
                                         <li>
                                             <Link to="/prodotti/serramenti">Serramenti</Link>
                                         </li>
                                         <li>
-                                            <Link to="/prodotti/alluminiolegno">Porte blindate</Link>
+                                            <Link to="/prodotti/porteblindate">Porte blindate</Link>
                                         </li>
                                         <li>
                                             <Link to="/prodotti/grate">Zanzariere</Link>

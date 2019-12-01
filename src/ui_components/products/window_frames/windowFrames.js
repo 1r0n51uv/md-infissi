@@ -14,15 +14,13 @@ class WindowFrames extends Component {
                     <div className="container">
                         <div className="row about_row about_us2_pages">
 
-                            <div className="col-md-11 col-md-offset-1">
+                            <div className="col-md-11 col-md-offset-1 col-xs-offset-1 wow fadeInDownBig">
                                 <table className="table-responsive" style={{borderColor: 'white'}}>
 
                                     <tbody>
 
 
                                     <tr>
-
-
 
                                         <td>
                                             {/* FINESTRA PVC */}
@@ -85,6 +83,14 @@ class WindowFrames extends Component {
                                         </td>
                                     </tr>
 
+                                    </tbody>
+
+                                </table>
+
+                                <table className="table-responsive">
+
+                                    <tbody>
+
                                     <tr>
 
                                         <td>
@@ -94,6 +100,7 @@ class WindowFrames extends Component {
                                                 link="/serramenti/alzante_pvc"
                                                 title="ALZANTE PVC"
                                                 image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2Fimmagine%20alzante%20pvc.png?alt=media&token=24ca91aa-d1fe-4ec8-aae2-fe9849ca5ea2"
+                                                col={true}
                                             />
 
                                         </td>
@@ -104,22 +111,33 @@ class WindowFrames extends Component {
                                             <WindowFrameCard
                                                 title="ALZANTE ALLUMINIO"
                                                 image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FImmagine1%20alzante%20alluminio.png?alt=media&token=10d29345-e288-4599-bf2c-c0af82c2fda4"
+                                                col={true}
                                             />
                                         </td>
+
+                                    </tr>
+
+                                    <tr>
                                         <td>
 
                                             {/* ALZANTE ALLUMINIO-LEGNO */}
                                             <WindowFrameCard
                                                 title="ALZANTE ALLUMINIO-LEGNO"
                                                 image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FImmagine1%20alzante%20alluminio-legno.png?alt=media&token=ef183725-a204-495e-bc91-106adb88c246"
+                                                col={true}
                                             />
 
                                         </td>
                                     </tr>
 
+
+
+
                                     </tbody>
 
+
                                 </table>
+
                             </div>
 
                         </div>

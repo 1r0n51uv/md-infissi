@@ -29,7 +29,7 @@ class SinglePanelDoorSlider extends Component {
                     <Modal open={this.state.open} onClose={this.onCloseModal} center>
                         <div className="text-center center-block" style={{width: '60%'}}>
                             <img src={this.state.img} className="img-responsive" alt=""/>
-                            <p>{this.props.code}</p>
+
                         </div>
                     </Modal>
                 </div>

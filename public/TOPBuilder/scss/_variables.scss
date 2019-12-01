@@ -1,21 +1,21 @@
 // Variables
 
-//Fonts 
+//Fonts
 $os:'Oswald', sans-serif;
-$roboto:'Roboto', sans-serif; 
+$roboto:'Roboto', sans-serif;
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700|Roboto:300,300i,400,400i,500,500i,700,700i');
 
-/*Color Variables*/ 
+/*Color Variables*/
 $bc: #f6b60b;
 $h2: #222222;
-$p: #555555;  
+$p: #555555;
 
 // Mixins
 @mixin transition($property: all, $duration: 300ms, $animate: linear, $delay:0s){
-    transition: $property $duration $animate $delay; 
+    transition: $property $duration $animate $delay;
 }
 
-// Placeholder Mixins 
+// Placeholder Mixins
 @mixin placeholder {
     &.placeholder { @content }
     &:-moz-placeholder { @content }
@@ -26,17 +26,17 @@ $p: #555555;
 ::selection{
 	background-color: #f8b81d;
     color: #FFFFFF;
-}   
+}
 
 /* Button */
-.button_all{ 
+.button_all{
     font: 700 18px/59px $roboto;
     width: 180px;
     text-align: center;
     background:$bc;
-    display: block; 
+    display: block;
     border: 0;
-    color: $h2; 
+    color: $h2;
     text-transform: uppercase;
     position: relative;
     z-index: 2;
@@ -46,17 +46,17 @@ $p: #555555;
         position: absolute;
         z-index: -1;
         background: $h2;
-        top: 0; 
+        top: 0;
         bottom: 0;
         left: 0;
         display: block;
         right: 0;
-        transform: scaleY(0); 
-        transform-origin: 50%; 
-        transition-property: transform; 
-        transition-duration: 0.3s; 
+        transform: scaleY(0);
+        transform-origin: 50%;
+        transition-property: transform;
+        transition-duration: 0.3s;
         transition-timing-function: ease-out
-    } 
+    }
     &:hover, &:focus{
         color: #fff !important;
         &:before{
@@ -93,7 +93,7 @@ $p: #555555;
 }
 
 /* Subtittle */
-.subtittle{ 
+.subtittle{
     h2{
         font: 700 36px $roboto;
         color: $h2;
@@ -116,7 +116,7 @@ $p: #555555;
         padding-top: 22px;
     }
 }
-/* Preloader */ 
+/* Preloader */
 .preloader{
     position:fixed;
     left:0px; top:0px;
