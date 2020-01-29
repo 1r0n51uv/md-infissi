@@ -38,6 +38,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "react-alice-carousel": "^1.13.0"
+    "react-alice-carousel": "^1.17.3"
   }
 }
