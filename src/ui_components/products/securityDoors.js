@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import ColourSliderRal from "./window_frames/components/colourSliderRal";
-import ColourSliderWood from "./window_frames/components/colourSliderWood";
+
 import PanelSlider from "./securityDoors/PanelSlider";
 
 class SecurityDoors extends Component {
@@ -12,7 +11,7 @@ class SecurityDoors extends Component {
                     <div className="container" style={{marginTop: '5%'}}>
 
                         <div className="tittle wow fadeInUp" >
-                            <h1 style={{fontFamily: 'Oswald'}}>PORTE BLINDATE</h1>
+                            <h2 style={{fontFamily: 'Oswald', fontSize: '250%'}}>PORTE BLINDATE</h2>
                         </div>
 
                         <div className="row about_row about_us2_pages center-block">
@@ -165,16 +164,59 @@ class SecurityDoors extends Component {
 
                                     <div className="col-md-12">
                                         <div className="tittle wow fadeInUp">
-                                            <h2>La nostra gamma di colori ral</h2>
+                                            <h2>Colore accessori:</h2>
                                         </div>
 
                                     </div>
 
                                     <div className="col-md-10 col-md-offset-1 wow fadeInLeft" style={{marginTop: '10%'}}>
 
-                                        <ColourSliderRal />
+                                        <div className="row">
+
+                                            <div className="col-md-6">
+
+                                                <h3>Bronzo</h3>
+
+                                                <div className="row">
+
+                                                    <div className="col-md-6 col-xs-6"><img
+                                                        className="img-responsive"
+                                                        src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2FporteBlindate%2Fmaniglie%2F02-alluminio-anodizzato-bronzo-pomolo.jpg?alt=media&token=363f6f38-3306-4422-b628-a36217c63b18" alt=""/>
+                                                    </div>
+
+                                                    <div className="col-md-6 col-xs-6"> <img
+                                                        className="img-responsive"
+                                                        src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2FporteBlindate%2Fmaniglie%2F01-alluminio-anodizzato-bronzo-maniglia.jpg?alt=media&token=c1b2c93a-b4dc-46b3-9ce1-844e6e96f860" alt=""/>
+                                                    </div>
 
 
+                                                </div>
+
+
+
+                                            </div>
+
+
+                                            <div className="col-md-6">
+                                                <h3>Argento</h3>
+
+                                                <div className="row">
+
+                                                    <div className="col-md-6 col-xs-6"><img
+                                                        className="img-responsive"
+                                                        src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2FporteBlindate%2Fmaniglie%2F04-alluminio-anodizzato-argento-pomolo.jpg?alt=media&token=d2970324-b819-46de-87e7-0fc3ad873c83" alt=""/>
+                                                    </div>
+
+                                                    <div className="col-md-6 col-xs-6"> <img
+                                                        className="img-responsive"
+                                                        src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2FporteBlindate%2Fmaniglie%2F03-alluminio-anodizzato-argento-maniglia.jpg?alt=media&token=d5f164d7-4366-4478-8056-6b65004daed5" alt=""/>
+                                                    </div>
+
+
+                                                </div>
+
+                                            </div>
+                                        </div>
                                     </div>
 
 
@@ -183,6 +225,93 @@ class SecurityDoors extends Component {
 
 
                             </div>
+
+                        </div>
+
+                        <hr/>
+
+                        <div className="tittle wow fadeInUp">
+                            <h2 style={{fontSize: '250%'}}>Optional</h2>
+                        </div>
+
+                        <div className="row about_row about_us2_pages center-block">
+
+                            <div className="col-md-6 center-block text-center">
+
+                                <div className="wow fadeInUp">
+                                    <h2 style={{fontSize: '250%'}}>Spioncino Digitale <i className="fas fa-eye"/></h2>
+                                </div>
+                                <br/>
+
+                                <img
+                                    src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2FporteBlindate%2FVisore-digitale-base-copia.jpg?alt=media&token=8f8440fa-e638-4d34-813c-36714fcfb267"
+                                    className="img-responsive center-block text-center"
+                                    alt=""/>
+                            </div>
+
+
+
+                            <div className="col-md-6 wow fadeInLeft">
+
+
+                                <h2><b>Visore Digitale Standard</b></h2>
+                                <br/>
+                                <h3>Lo spioncino digitale con visore a cristalli liquidi ha un design squadrato semplice ed
+                                    essenziale, che permette di visualizzare un’immagine chiara e nitida dall’interno dell’appartamento,
+                                    grazie ad uno schermo Lcd 3.2”. Accensione manuale tramite pulsante interno e spegnimento automatico
+                                    dopo 10 secondi per risparmio batterie.</h3>
+                                <br/>
+                                <h4 style={{color: 'gray'}}>Finiture: Oro – Argento</h4>
+
+                            </div>
+
+                        </div>
+
+                        <hr style={{borderTop: '3px #f6b60b solid'}}/>
+
+
+                        <div className="row about_row about_us2_pages center-block">
+
+                            <div className="col-md-6">
+                                <div className="wow fadeInUp">
+                                    <h2 style={{fontSize: '250%'}}>Apertura con impronta digitale <i
+                                        className="fas fa-fingerprint"/></h2>
+                                </div>
+                                <br/>
+                            </div>
+
+
+                            <div className="col-md-12">
+                                <div className="row">
+                                    <div className="col-md-4 wow fadeInLeft">
+
+                                        <img
+                                            src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2FporteBlindate%2Fapertura-con-impronta-digitale-abilitata-1-300x300.jpg?alt=media&token=820eb275-df40-43d2-82e0-800046eb7ae1"
+                                            alt=""/>
+                                        <h3 className="wow fadeInDown text-center">Abilitata</h3>
+                                    </div>
+                                    <div className="col-md-4 wow fadeInLeft">
+
+                                        <img
+                                            src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2FporteBlindate%2Fapertura-con-impronta-digitale-stand-by-1-300x300.jpg?alt=media&token=cd4c257d-6a99-4b4d-a2c5-67fb670142db"
+                                            alt=""/>
+                                        <h3 className="wow fadeInDown text-center">Stand By</h3>
+                                    </div>
+                                    <div className="col-md-4 wow fadeInLeft">
+
+                                        <img
+                                            src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2FporteBlindate%2Fapertura-con-impronta-digitale-non-abilitata-1-300x300.jpg?alt=media&token=41b5dcc8-461a-4ff6-89e1-e10f3d32758c"
+                                            alt=""/>
+                                            <h3 className="wow fadeInDown text-center">Non abilitata</h3>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+
 
                         </div>
 
