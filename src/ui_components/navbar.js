@@ -43,7 +43,7 @@ class Navbar extends Component {
 
                                     <Link className="dropdown-toggle" data-toggle="dropdown" to="#">Prodotti</Link>
 
-                                    <ul className="dropdown-menu other_dropdwn" style={{backgroundColor: '#F21B22'}}>
+                                    <ul className="dropdown-menu other_dropdwn">
                                         <li>
                                             <Link to="/prodotti/serramenti">Serramenti</Link>
                                         </li>
@@ -52,6 +52,9 @@ class Navbar extends Component {
                                         </li>
                                         <li>
                                             <Link to="/prodotti/grate">Zanzariere</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="/prodotti/facciateContinuePergolaBioclimatica">Facciate Continue <br/>Pergola Bioclimatica</Link>
                                         </li>
                                     </ul>
                                 </li>
