@@ -15,7 +15,7 @@ class ChooseWindow extends Component {
                                 <div className="single_facilities col-sm-5 painting webdesign wow fadeInRight">
                                     <img src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/home%2Finfissi_pvc-2.jpg?alt=media&token=f6ec4ab3-646b-4513-9f3a-5fcea2e530f2" alt=""/>
                                 </div>
-                                <div className="grid-sizer-2"></div>
+                                <div className="grid-sizer-2"/>
                                 <div className="single_facilities col-sm-6 col-sm-offset-1 painting building painting adversting wow fadeInLeft cardBox2" style={{borderRadius: '20px'}} >
                                     <div className="who_we_area text-center" style={{padding: '5%', lineHeight: '20px'}}>
                                         <div style={{padding: '5%'}}>
