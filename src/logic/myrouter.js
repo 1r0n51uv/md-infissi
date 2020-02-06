@@ -20,6 +20,7 @@ import Zanzariere from "../ui_components/products/zanzariere/zanzariere";
 import PergolaClimatica from "../ui_components/products/pergolaClimatica/pergolaClimatica";
 import FacciateContinue from "../ui_components/products/facciateContinue/facciateContinue";
 import BattenteAlLegn from "../ui_components/products/window_frames/subPages/alluminioLegno/battenteAL_Legn";
+import AlzanteAlLegn from "../ui_components/products/window_frames/subPages/alluminioLegno/alzanteAL_Legn";
 
 
 class Myrouter extends Component {
@@ -54,6 +55,7 @@ class Myrouter extends Component {
                     <Route path="/serramenti/alzante_pvc" component={AlzantePvc}/>
 
                     <Route path="/serramenti/battente_al_le" component={BattenteAlLegn}/>
+                    <Route path="/serramenti/alzante_al_le" component={AlzanteAlLegn}/>
 
                     <Route path="/serramenti/battente_al" component={BattenteAl}/>
                     <Route path="/serramenti/scorrevole_al" component={ScorrevoleAl}/>

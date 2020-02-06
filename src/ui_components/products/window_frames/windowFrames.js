@@ -123,6 +123,7 @@ class WindowFrames extends Component {
 
                                             {/* ALZANTE ALLUMINIO-LEGNO */}
                                             <WindowFrameCard
+                                                link="/serramenti/alzante_al_le"
                                                 title="ALZANTE ALLUMINIO-LEGNO"
                                                 image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FImmagine1%20alzante%20alluminio-legno.png?alt=media&token=ef183725-a204-495e-bc91-106adb88c246"
                                                 col={true}

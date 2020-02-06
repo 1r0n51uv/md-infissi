@@ -45,7 +45,7 @@ class BattenteAlLegn extends Component {
                                 <br/>
                                 <h4><b>Uw = 1,9 W/m2K</b></h4>
                                 <h4>Ug = 1,0 W/m2K warm edges</h4>
-                                <h4>Ug = 1,0 W/m2K warm edges</h4>
+                                <h4>Uf = 2,7 W/m2K</h4>
 
                                 <br/>
 
@@ -153,7 +153,7 @@ class BattenteAlLegn extends Component {
 
                 <hr/>
 
-                <section className="about_us_area about_us_2 row">
+                <section style={{marginBottom: '10%'}} className="about_us_area about_us_2 row">
                     <div className="container">
 
                         <div className="row">
@@ -189,7 +189,7 @@ class BattenteAlLegn extends Component {
                     </div>
                 </section>
 
-                <section className="our_services_tow row">
+                <section style={{marginBottom: '10%'}} className="our_services_tow row">
                     <div className="container">
 
                         <div className="row">
@@ -207,7 +207,7 @@ class BattenteAlLegn extends Component {
 
                                     </div>
 
-                                    <div className="col-md-10 col-md-offset-1 wow fadeInLeft" style={{marginTop: '10%'}}>
+                                    <div className="col-md-10 col-md-offset-1 wow fadeInLeft">
 
                                         <ColourSliderWood />
 
