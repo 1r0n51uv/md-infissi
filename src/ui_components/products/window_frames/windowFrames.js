@@ -87,7 +87,7 @@ class WindowFrames extends Component {
 
                                 </table>
 
-                                <table className="table-responsive">
+                                <table className="table-responsive" style={{borderColor: 'white'}}>
 
                                     <tbody>
 

@@ -51,7 +51,7 @@ class Navbar extends Component {
                                             <Link to="/prodotti/porteblindate">Porte blindate</Link>
                                         </li>
                                         <li>
-                                            <Link to="/prodotti/grate">Zanzariere</Link>
+                                            <Link to="/prodotti/zanzariere">Zanzariere</Link>
                                         </li>
                                         <li>
                                             <Link to="/prodotti/facciateContinuePergolaBioclimatica">Facciate Continue <br/>Pergola Bioclimatica</Link>
