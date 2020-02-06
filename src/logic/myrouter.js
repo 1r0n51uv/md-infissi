@@ -17,6 +17,7 @@ import BattenteAl from "../ui_components/products/window_frames/subPages/allumin
 import ScorrevoleAl from "../ui_components/products/window_frames/subPages/alluminio/scorrevoleAl";
 import SecurityDoor from "../ui_components/products/securityDoors";
 import Zanzariere from "../ui_components/products/zanzariere/zanzariere";
+import PergolaClimatica from "../ui_components/products/pergolaClimatica/pergolaClimatica";
 
 
 class Myrouter extends Component {
@@ -38,6 +39,8 @@ class Myrouter extends Component {
                     <Route exact path="/prodotti/porteblindate" component={SecurityDoor}/>
 
                     <Route exact path="/prodotti/zanzariere" component={Zanzariere}/>
+
+                    <Route exact path="/prodotti/pergolaBioClimatica" component={PergolaClimatica}/>
 
                     <Route path="/prodotti/serramenti" component={WindowFrames}/>
                     <Route exact path="/serramenti" component={WindowFrames}/>
