@@ -18,6 +18,8 @@ import ScorrevoleAl from "../ui_components/products/window_frames/subPages/allum
 import SecurityDoor from "../ui_components/products/securityDoors";
 import Zanzariere from "../ui_components/products/zanzariere/zanzariere";
 import PergolaClimatica from "../ui_components/products/pergolaClimatica/pergolaClimatica";
+import FacciateContinue from "../ui_components/products/facciateContinue/facciateContinue";
+import BattenteAlLegn from "../ui_components/products/window_frames/subPages/alluminioLegno/battenteAL_Legn";
 
 
 class Myrouter extends Component {
@@ -42,12 +44,16 @@ class Myrouter extends Component {
 
                     <Route exact path="/prodotti/pergolaBioClimatica" component={PergolaClimatica}/>
 
+                    <Route exact path="/prodotti/facciateContinue" component={FacciateContinue}/>
+
                     <Route path="/prodotti/serramenti" component={WindowFrames}/>
                     <Route exact path="/serramenti" component={WindowFrames}/>
 
                     <Route path="/serramenti/scorrevoli_pvc" component={ScorrevolePvc}/>
                     <Route path="/serramenti/battente_pvc" component={BattentePvc}/>
                     <Route path="/serramenti/alzante_pvc" component={AlzantePvc}/>
+
+                    <Route path="/serramenti/battente_al_le" component={BattenteAlLegn}/>
 
                     <Route path="/serramenti/battente_al" component={BattenteAl}/>
                     <Route path="/serramenti/scorrevole_al" component={ScorrevoleAl}/>

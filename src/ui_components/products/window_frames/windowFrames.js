@@ -45,6 +45,7 @@ class WindowFrames extends Component {
                                         <td>
                                             {/* FINESTRA ALLUMINIO-LEGNO */}
                                             <WindowFrameCard
+                                                link="/serramenti/battente_al_le"
                                                 title="FINESTRA ALLUMINIO-LEGNO"
                                                 image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FImmagine%20FINESTRA%20alluminio-legno.png?alt=media&token=c82d0dd1-37ca-4b08-94db-a03ecf2717b8"
                                             />
