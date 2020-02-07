@@ -25,6 +25,9 @@ import Bilaterale from "../ui_components/products/zanzariere/bilaterale";
 import Laterale from "../ui_components/products/zanzariere/laterale";
 import Scorrevole from "../ui_components/products/zanzariere/scorrevole";
 import Verticale from "../ui_components/products/zanzariere/verticale";
+import FcContStru from "../ui_components/products/facciateContinue/fcContStru";
+import FcMontTrav from "../ui_components/products/facciateContinue/fcMontTrav";
+import FcStruttMecc from "../ui_components/products/facciateContinue/fcStruttMecc";
 
 
 class Myrouter extends Component {
@@ -51,9 +54,12 @@ class Myrouter extends Component {
                     <Route path="/zanzariere/scorrevole" component={Scorrevole}/>
                     <Route path="/zanzariere/verticale" component={Verticale}/>
 
-                    <Route exact path="/prodotti/pergolaBioClimatica" component={PergolaClimatica}/>
+                    <Route exact path="/pergolaBioClimatica" component={PergolaClimatica}/>
 
-                    <Route exact path="/prodotti/facciateContinue" component={FacciateContinue}/>
+                    <Route exact path="/facciateContinue" component={FacciateContinue}/>
+                    <Route path="/facciateContinue/strutturaleMeccanica" component={FcStruttMecc}/>
+                    <Route path="/facciateContinue/montanteTraversi" component={FcMontTrav}/>
+                    <Route path="/facciateContinue/continuaStrutturale" component={FcContStru}/>
 
                     <Route path="/prodotti/serramenti" component={WindowFrames}/>
                     <Route exact path="/serramenti" component={WindowFrames}/>

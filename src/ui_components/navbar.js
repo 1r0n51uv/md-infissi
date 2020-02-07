@@ -54,10 +54,10 @@ class Navbar extends Component {
                                             <Link to="/zanzariere">Zanzariere</Link>
                                         </li>
                                         <li>
-                                            <Link to="/prodotti/facciateContinue">Facciate Continue</Link>
+                                            <Link to="/facciateContinue">Facciate Continue</Link>
                                         </li>
                                         <li>
-                                            <Link to="/prodotti/pergolaBioClimatica">Pergola Bioclimatica</Link>
+                                            <Link to="/pergolaBioClimatica">Pergola Bioclimatica</Link>
                                         </li>
 
                                     </ul>
