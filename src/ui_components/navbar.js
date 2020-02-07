@@ -51,7 +51,7 @@ class Navbar extends Component {
                                             <Link to="/prodotti/porteblindate">Porte blindate</Link>
                                         </li>
                                         <li>
-                                            <Link to="/prodotti/zanzariere">Zanzariere</Link>
+                                            <Link to="/zanzariere">Zanzariere</Link>
                                         </li>
                                         <li>
                                             <Link to="/prodotti/facciateContinue">Facciate Continue</Link>

@@ -21,6 +21,10 @@ import PergolaClimatica from "../ui_components/products/pergolaClimatica/pergola
 import FacciateContinue from "../ui_components/products/facciateContinue/facciateContinue";
 import BattenteAlLegn from "../ui_components/products/window_frames/subPages/alluminioLegno/battenteAL_Legn";
 import AlzanteAlLegn from "../ui_components/products/window_frames/subPages/alluminioLegno/alzanteAL_Legn";
+import Bilaterale from "../ui_components/products/zanzariere/bilaterale";
+import Laterale from "../ui_components/products/zanzariere/laterale";
+import Scorrevole from "../ui_components/products/zanzariere/scorrevole";
+import Verticale from "../ui_components/products/zanzariere/verticale";
 
 
 class Myrouter extends Component {
@@ -41,7 +45,11 @@ class Myrouter extends Component {
 
                     <Route exact path="/prodotti/porteblindate" component={SecurityDoor}/>
 
-                    <Route exact path="/prodotti/zanzariere" component={Zanzariere}/>
+                    <Route exact path="/zanzariere" component={Zanzariere}/>
+                    <Route path="/zanzariere/bilaterale" component={Bilaterale}/>
+                    <Route path="/zanzariere/laterale" component={Laterale}/>
+                    <Route path="/zanzariere/scorrevole" component={Scorrevole}/>
+                    <Route path="/zanzariere/verticale" component={Verticale}/>
 
                     <Route exact path="/prodotti/pergolaBioClimatica" component={PergolaClimatica}/>
 
