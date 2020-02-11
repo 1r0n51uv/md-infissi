@@ -9,7 +9,7 @@ class Contacts extends Component {
                 </section>
                 <div className="contact_map">
                     <iframe width="600" height="500" id="gmap_canvas"
-                            src="https://maps.google.com/maps?q=via%20farricella%2032%20striano&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                            src="https://maps.google.com/maps?q=via%20farricella%2018%20striano&t=&z=17&ie=UTF8&iwloc=&output=embed"
                     />
                 </div>
 

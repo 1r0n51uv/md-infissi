@@ -64,29 +64,6 @@ class PergolaClimatica extends Component {
 
                 </section>
 
-                <section className="wow fadeIn our_services_tow row">
-
-                    <div className="container">
-
-                        <div className="row">
-
-                            <div className="col-md-12 text-center wow fadeInUp">
-
-                                <div className="tittle text-center">
-                                    <h2>Pergole Bioclimatiche Gibus </h2>
-                                    <br/>
-                                    <a href="https://www.gibus.com/it/prodotto/pergola-bioclimatica-med-varia"
-                                       className="text-center center-block button_all">Sito ufficiale</a>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </section>
-
 
             </div>
         );

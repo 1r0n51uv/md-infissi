@@ -56,21 +56,6 @@ class FacciateContinue extends Component {
                                 </div>
                             </Link>
 
-                            <div className="col-md-6 col-sm-6 text-center center-block" style={{marginTop: '5%'}}>
-
-                                <div className="tittle wow fadeInUp">
-
-                                    <div className="tittle text-center">
-                                        <h2>Facciate Continue ColmaSRL</h2>
-                                        <br/>
-                                        <a href="https://www.colmasrl.com/facciate-continue/"
-                                           className="text-center center-block button_all">Sito ufficiale</a>
-                                    </div>
-
-
-                                </div>
-
-                            </div>
 
                         </div>
 
