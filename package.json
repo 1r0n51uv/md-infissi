@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "coveralls": "^3.0.9",
     "dotenv": "^8.2.0",
     "firebase": "^7.8.1",
     "react": "^16.12.0",
@@ -26,7 +25,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
+    "coverage": "react-scripts test --env=jsdom --coverage",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,6 +40,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "coveralls": "^3.0.9",
     "react-alice-carousel": "^1.17.3"
   }
 }
