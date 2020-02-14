@@ -1,11 +1,6 @@
 import React, {Component} from 'react';
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
-
-import testimonial1 from '../../res/testimonial-1.jpg'
-import testimonial2 from '../../res/testimonial-2.jpg'
-import testimonial3 from '../../res/testimonial-3.jpg'
-import testimonial4 from '../../res/testimonial-4.jpg'
 import {Carousel} from "react-responsive-carousel";
 
 
@@ -43,11 +38,6 @@ class ClientsReviews extends Component {
 
                             <div className="item text-center">
                                 <div className="media">
-                                    <div className="media-left" style={{display: 'none'}}>
-                                        <a href="#">
-                                            <img className="media-object img-circle"  src={testimonial3} alt=""/>
-                                        </a>
-                                    </div>
                                     <div className="media-body" >
                                         <h4 style={{color: 'black'}} className="media-heading"> </h4>
                                         <h6> </h6>
@@ -70,11 +60,6 @@ class ClientsReviews extends Component {
                             </div>
                             <div className="item text-center">
                                 <div className="media">
-                                    <div className="media-left" style={{display: 'none'}}>
-                                        <a href="#">
-                                            <img className="media-object img-circle"  src={testimonial3} alt=""/>
-                                        </a>
-                                    </div>
                                     <div className="media-body" >
                                         <h4 style={{color: 'black'}} className="media-heading"> </h4>
                                         <h6> </h6>

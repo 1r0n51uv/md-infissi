@@ -10,8 +10,8 @@ class Footer extends Component {
                             <img src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/logo%20minichini%20infissi.PNG?alt=media&token=1898be84-0538-4197-b003-cf68de944c56" alt=""/>
                                 <p style={{fontSize: '120%'}}>La gamma di prodotti da noi offerti è studiata per rispondere alle esigenze più disparate di un mercato in costante crescita e sviluppo.</p>
                                 <ul className="socail_icon text-right">
-                                    <li><a href="#"><i className="fab fa-facebook-f" aria-hidden="true"/></a></li>
-                                    <li><a href="#"><i className="fab fa-instagram" aria-hidden="true"/></a></li>
+                                    <li><a href="https://facebook.com"><i className="fab fa-facebook-f"/></a></li>
+                                    <li><a href="https://instagram.com"><i className="fab fa-instagram"/></a></li>
                                 </ul>
                         </div>
 
@@ -22,7 +22,8 @@ class Footer extends Component {
                                     <li><a href="mailto:mdinfissisrl@alice.it"><i className="fa fa-envelope" aria-hidden="true"></i>mdinfissisrl@alice.it</a></li>
                                     <li><a href="tel:081-8277044"><i className="fa fa-phone" aria-hidden="true"></i>081-8277044</a></li>
                                     <li><a href="tel:333-2508277"><i className="fa fa-phone" aria-hidden="true"></i>333-2508277</a></li>
-                                    <li><a href="#"><i className="fa fa-map-marker" aria-hidden="true"></i><span>Via Farricella, 1 Traversa n°18, Striano (NA) </span></a>
+                                    <li><a href="https://www.google.com/maps?ll=40.815991,14.581073&z=17&t=m&hl=it-IT&gl=US&mapclient=embed&q=via+farricella+18+striano">
+                                        <i className="fa fa-map-marker" aria-hidden="true"></i><span>Via Farricella, 1 Traversa n°18, Striano (NA) </span></a>
                                     </li>
                                 </ul>
                             </address>

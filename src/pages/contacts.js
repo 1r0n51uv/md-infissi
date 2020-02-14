@@ -8,7 +8,7 @@ class Contacts extends Component {
                     <h2>Contatti</h2>
                 </section>
                 <div className="contact_map">
-                    <iframe width="600" height="500" id="gmap_canvas"
+                    <iframe width="600" height="500" id="gmap_canvas" title="map"
                             src="https://maps.google.com/maps?q=via%20farricella%2018%20striano&t=&z=17&ie=UTF8&iwloc=&output=embed"
                     />
                 </div>
@@ -26,7 +26,8 @@ class Contacts extends Component {
                                                 <h4><i className="fas fa-map-marker-alt"/> <b>Sede operativa:</b></h4>
                                             </div>
                                             <div className="col-md-8 text-left" style={{marginTop: '3%'}}>
-                                                <a href="#" style={{color: '#f6b60b'}}>
+                                                <a href="https://www.google.com/maps?ll=40.815991,14.581073&z=17&t=m&hl=it-IT&gl=US&mapclient=embed&q=via+farricella+18+striano"
+                                                   style={{color: '#f6b60b'}}>
                                                     <h4>Via Farricella, 1 Traversa n°18</h4>
                                                     <h4>Striano (NA)</h4>
                                                 </a>
@@ -39,7 +40,7 @@ class Contacts extends Component {
                                                 <h4><i className="fas fa-phone-square"/> <b>Cellulare:</b></h4>
                                             </div>
                                             <div className="col-md-8 text-left" style={{marginTop: '3%'}}>
-                                                <a style={{color: '#f6b60b'}} href="">
+                                                <a style={{color: '#f6b60b'}} href="tel:333-2508277">
                                                     <h4>333-2508277</h4>
                                                 </a>
                                             </div>
@@ -51,7 +52,7 @@ class Contacts extends Component {
                                                 <h4><i className="fas fa-phone-square"/> <b>Telefono:</b></h4>
                                             </div>
                                             <div className="col-md-8 text-left" style={{marginTop: '3%'}}>
-                                                <a style={{color: '#f6b60b'}} href="">
+                                                <a style={{color: '#f6b60b'}} href="tel:081-8277044">
                                                     <h4>081-8277044</h4>
                                                 </a>
                                             </div>
@@ -63,7 +64,7 @@ class Contacts extends Component {
                                                 <h4><i className="fas fa-envelope-open"/> <b>Email:</b></h4>
                                             </div>
                                             <div className="col-md-8 text-left" style={{marginTop: '3%'}}>
-                                                <a href="#" style={{color: '#f6b60b'}}>
+                                                <a href="mailto:mdinfissisrl@alice.it" style={{color: '#f6b60b'}}>
                                                     <h4>mdinfissisrl@alice.it</h4>
                                                 </a>
                                             </div>
@@ -77,11 +78,11 @@ class Contacts extends Component {
                                     <div className="row justify-content-center">
                                         <br/>
                                         <div className="col-md-12 text-center">
-                                            <a href="">
+                                            <a href="https://facebook.com">
                                                 <i style={{fontSize: '350%', color: '#3b5998'}} className="fab fa-facebook-square"/>
                                             </a>
 
-                                            <a href="">
+                                            <a href="https://instagram.com">
                                                 <i style={{fontSize: '350%', marginLeft: '20%', color: '#C13584'}} className="fab fa-instagram"/>
                                             </a>
                                         </div>

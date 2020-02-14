@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import ColourCard from "../../components/colourCard";
 import ColourSliderRal from "../../components/colourSliderRal";
 import ColourSliderWood from "../../components/colourSliderWood";
 import ColourSliderLikeWood from "../../components/ColourSliderLikeWood";

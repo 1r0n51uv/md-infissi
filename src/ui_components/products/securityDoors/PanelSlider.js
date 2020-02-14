@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
 import AliceCarousel from "react-alice-carousel";
-
-import firebase from "firebase";
 import ColourCard from "../window_frames/components/colourCard";
 
 class PanelSlider extends Component {

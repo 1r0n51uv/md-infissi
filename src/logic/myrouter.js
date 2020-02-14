@@ -5,9 +5,6 @@ import About from "../pages/about";
 import Navbar from "../ui_components/navbar";
 import Azienda from "../pages/azienda";
 import Contacts from "../pages/contacts";
-import Lavoraconoi from "../pages/lavoraconoi";
-import Preventivo from "../pages/preventivo";
-import Prodotti from "../pages/Prodotti";
 import Footer from "../ui_components/footer";
 import WindowFrames from "../ui_components/products/window_frames/windowFrames";
 import ScorrevolePvc from "../ui_components/products/window_frames/subPages/pvc/scorrevolePVC";
@@ -41,10 +38,7 @@ class Myrouter extends Component {
                     <Route path="/about" component={About}/>
                     <Route path="/azienda" component={Azienda}/>
                     <Route path="/contatti" component={Contacts}/>
-                    <Route path="/lavoraconoi" component={Lavoraconoi}/>
-                    <Route path="/preventivo" component={Preventivo}/>
 
-                    <Route exact path="/prodotti" component={Prodotti}/>
 
                     <Route exact path="/prodotti/porteblindate" component={SecurityDoor}/>
 

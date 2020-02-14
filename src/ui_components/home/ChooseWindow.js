@@ -23,8 +23,11 @@ class ChooseWindow extends Component {
                                                 <h2>PVC</h2>
                                             </div>
                                             <br/>
-                                            <p style={{fontSize: '180%'}}>I nostri sistemi in pvc sono in grado di soddisfare qualsiasi esigenza con alte
-                                            prestazioni acustiche e termiche. <br/> Il suo punto di forza?  <br/> <p style={{textDecoration: 'underline'}}><b>Rapporto qualità-prezzo </b></p> </p>
+                                            <p style={{fontSize: '180%'}}>
+                                                <span>I nostri sistemi in pvc sono in grado di soddisfare qualsiasi esigenza con alte
+                                            prestazioni acustiche e termiche. <br/> Il suo punto di forza?</span>
+                                                <span style={{textDecoration: 'underline'}}><b>Rapporto qualità-prezzo </b></span>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
