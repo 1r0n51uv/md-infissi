@@ -25,9 +25,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "mocha",
-    "coverage": "nyc npm run test",
-    "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
