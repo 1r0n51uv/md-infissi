@@ -10,7 +10,7 @@ class PergolaClimatica extends Component {
                     <div className="container" style={{marginTop: '5%'}}>
 
                         <div className="tittle wow fadeInUp" >
-                            <h2 style={{fontFamily: 'Oswald', fontSize: '250%'}}>Pergola bioclimatica di gibus</h2>
+                            <h2 style={{fontFamily: 'Oswald', fontSize: '250%'}}>Pergola bioclimatica</h2>
                         </div>
 
                     </div>

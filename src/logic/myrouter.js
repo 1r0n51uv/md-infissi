@@ -25,6 +25,13 @@ import Verticale from "../ui_components/products/zanzariere/verticale";
 import FcContStru from "../ui_components/products/facciateContinue/fcContStru";
 import FcMontTrav from "../ui_components/products/facciateContinue/fcMontTrav";
 import FcStruttMecc from "../ui_components/products/facciateContinue/fcStruttMecc";
+import MinimaliHome from "../ui_components/products/minmaliTT/minimaliHome";
+import EkuStrutturale from "../ui_components/products/minmaliTT/ekuStrutturale";
+import EkuSlide from "../ui_components/products/minmaliTT/ekuSlide";
+import Maxvision from "../ui_components/products/minmaliTT/maxvision";
+import Md68 from "../ui_components/products/window_frames/subPages/pvc/battentePVC/md68";
+import Md80 from "../ui_components/products/window_frames/subPages/pvc/battentePVC/md80";
+import S8000 from "../ui_components/products/window_frames/subPages/pvc/battentePVC/s8000";
 
 
 class Myrouter extends Component {
@@ -59,7 +66,6 @@ class Myrouter extends Component {
                     <Route exact path="/serramenti" component={WindowFrames}/>
 
                     <Route path="/serramenti/scorrevoli_pvc" component={ScorrevolePvc}/>
-                    <Route path="/serramenti/battente_pvc" component={BattentePvc}/>
                     <Route path="/serramenti/alzante_pvc" component={AlzantePvc}/>
 
                     <Route path="/serramenti/battente_al_le" component={BattenteAlLegn}/>
@@ -67,6 +73,17 @@ class Myrouter extends Component {
 
                     <Route path="/serramenti/battente_al" component={BattenteAl}/>
                     <Route path="/serramenti/scorrevole_al" component={ScorrevoleAl}/>
+
+                    <Route exact path="/minimali_TT" component={MinimaliHome}/>
+                    <Route path="/minimali_TT/ekuPerfectionStrutturale" component={EkuStrutturale}/>
+                    <Route path="/minimali_TT/ekuPerfectionSlide" component={EkuSlide}/>
+                    <Route path="/minimali_TT/maxvision" component={Maxvision}/>
+
+                    <Route exact path="/battente_pvc" component={BattentePvc}/>
+                    <Route path="/battente_pvc/md68" component={Md68}/>
+                    <Route path="/battente_pvc/md80" component={Md80}/>
+                    <Route path="/battente_pvc/s8000" component={S8000}/>
+
 
                     <Footer/>
                 </div>

@@ -84,61 +84,58 @@ class WindowFrames extends Component {
                                         </td>
                                     </tr>
 
-                                    </tbody>
-
-                                </table>
-
-                                <table className="table-responsive" style={{borderColor: 'white'}}>
-
-                                    <tbody>
-
                                     <tr>
-
                                         <td>
-
                                             {/* ALZANTE PVC */}
                                             <WindowFrameCard
                                                 link="/serramenti/alzante_pvc"
                                                 title="ALZANTE PVC"
                                                 image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2Fimmagine%20alzante%20pvc.png?alt=media&token=24ca91aa-d1fe-4ec8-aae2-fe9849ca5ea2"
-                                                col={true}
-                                            />
 
-                                        </td>
-
-
-                                        <td>
-                                            {/* ALZANTE ALLUMINIO */}
-                                            <WindowFrameCard
-                                                title="ALZANTE ALLUMINIO"
-                                                image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FImmagine1%20alzante%20alluminio.png?alt=media&token=10d29345-e288-4599-bf2c-c0af82c2fda4"
-                                                col={true}
                                             />
                                         </td>
 
-                                    </tr>
-
-                                    <tr>
                                         <td>
-
-                                            {/* ALZANTE ALLUMINIO-LEGNO */}
+                                            {/* SCORREVOLE ALLUMINIO */}
                                             <WindowFrameCard
                                                 link="/serramenti/alzante_al_le"
                                                 title="ALZANTE ALLUMINIO-LEGNO"
                                                 image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FImmagine1%20alzante%20alluminio-legno.png?alt=media&token=ef183725-a204-495e-bc91-106adb88c246"
-                                                col={true}
+
+                                            />
+                                        </td>
+
+                                        <td>
+                                            {/* SCORREVOLE ALLUMINIO-LEGNO */}
+                                            <WindowFrameCard
+                                                title="SCORREVOLE ALLUMINIO-LEGNO"
+                                                image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FImmagine%20scorrevole%20alluminio-legno.png?alt=media&token=df289dd6-ab7a-4f12-aa25-f55d7b4d5289"
                                             />
 
                                         </td>
                                     </tr>
 
+                                    <tr>
 
+                                        <td/>
 
+                                        <td>
+                                            {/* MINIMALI ALLUMINIO TT*/}
+                                            <WindowFrameCard
+                                                link="/minimali_TT"
+                                                title="MINIMALI ALLUMINIO TT"
+                                                image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2Fimmagine%20FINESTRA%20alluminio.png?alt=media&token=8cdc87f5-49c7-4ec5-9568-7aa0a153a974"
+                                            />
+
+                                        </td>
+
+                                    </tr>
 
                                     </tbody>
 
-
                                 </table>
+
+
 
                             </div>
 

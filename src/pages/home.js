@@ -10,7 +10,11 @@ class Home extends Component {
 
 
                 <HomeSlider/>
-                <ClientsReviews/>
+
+                {
+                //    <ClientsReviews/>
+                }
+
                 <ChooseWindow/>
 
             </div>
