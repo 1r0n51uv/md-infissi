@@ -41,6 +41,6 @@
   "devDependencies": {
     "coveralls": "^3.0.9",
     "nyc": "^15.0.0",
-    "react-alice-carousel": "^1.17.3"
+    "react-alice-carousel": "^1.19.3"
   }
 }
