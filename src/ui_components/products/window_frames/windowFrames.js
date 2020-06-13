@@ -25,7 +25,7 @@ class WindowFrames extends Component {
                                         <td>
                                             {/* FINESTRA PVC */}
                                             <WindowFrameCard
-                                                link="/serramenti/battente_pvc"
+                                                link="/battente_pvc"
                                                 title="FINESTRA PVC"
                                                 image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2Fimmagine%20FINESTRA%20pvc.png?alt=media&token=362a8763-5f5a-428e-b93f-cbdcd2e6672e"
                                             />
