@@ -106,10 +106,11 @@ class WindowFrames extends Component {
                                         </td>
 
                                         <td>
-                                            {/* SCORREVOLE ALLUMINIO-LEGNO */}
+                                            {/* MINIMALI ALLUMINIO TT*/}
                                             <WindowFrameCard
-                                                title="SCORREVOLE ALLUMINIO-LEGNO"
-                                                image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FImmagine%20scorrevole%20alluminio-legno.png?alt=media&token=df289dd6-ab7a-4f12-aa25-f55d7b4d5289"
+                                                link="/minimali_TT"
+                                                title="MINIMALI ALLUMINIO TT"
+                                                image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2Fimmagine%20FINESTRA%20alluminio.png?alt=media&token=8cdc87f5-49c7-4ec5-9568-7aa0a153a974"
                                             />
 
                                         </td>
@@ -119,15 +120,7 @@ class WindowFrames extends Component {
 
                                         <td/>
 
-                                        <td>
-                                            {/* MINIMALI ALLUMINIO TT*/}
-                                            <WindowFrameCard
-                                                link="/minimali_TT"
-                                                title="MINIMALI ALLUMINIO TT"
-                                                image="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2Fimmagine%20FINESTRA%20alluminio.png?alt=media&token=8cdc87f5-49c7-4ec5-9568-7aa0a153a974"
-                                            />
 
-                                        </td>
 
                                     </tr>
 

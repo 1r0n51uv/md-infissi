@@ -24,7 +24,7 @@ class Azienda extends Component {
 
                               <div style={{borderBottom: '3px #f6b60b solid'}}>
                                   <p style={{fontSize: '150%'}}>La realizzazione delle finestre si svolge con macchinari ad
-                                      <b>alta tecnologia</b>, dove ogni fase è monitorata e controllata da manodopera specializzata.
+                                      <b> alta tecnologia</b>, dove ogni fase è monitorata e controllata da manodopera specializzata.
                                       I prodotti di alta qualità, la puntalità nelle consegne, la flessibilità produttiva nonchè il
                                       rapporto umano con ogni singolo cliente ci consentono di differenziarci dalle altre aziende </p>
                               </div>

@@ -43,14 +43,14 @@ class AlzanteAlLegn extends Component {
                                     <br/>
                                     <h4>Calcolo eseguito su serramento dim. 1480 x 2180 mm 2 ANTE <br/> (normativa di riferimento UNI EN ISO 10077 1 e 2, UNI EN 12412-2, UNI EN 14351-1)</h4>
                                     <br/>
-                                    <h4><b>Uw = 1,3 W/m2K</b></h4>
+                                    <h4><b>Uw = 1,3 W/m2K</b></h4>
                                     <h4>Ug = 0,6 W/m2K warm edges</h4>
                                     <h4>Uf = da 2,5 a 3,2 W/m2K</h4>
 
                                     <br/>
 
                                     <h4>Altre prestazioni</h4>
-                                    <h4>Prova su serramenti dim. 2300x2500 e 1400x2300 a più ante<br/>(normativa di riferimento UNI EN 12412-2, UNI EN 14351-1)</h4>
+                                    <h4>Prova su serramenti dim. 2300x2500 e 1400x2300 a più ante<br/>(normativa di riferimento UNI EN 12412-2, UNI EN 14351-1)</h4>
                                     <hr/>
 
                                     <div className="row">
@@ -166,7 +166,7 @@ class AlzanteAlLegn extends Component {
 
                                         <div className="col-md-12">
                                             <div className="tittle wow fadeInUp">
-                                                <h2>La nostra gamma di colori <br/> (PER PARTE IN ALLUMINIO) RAL:</h2>
+                                                <h2>La nostra gamma di colori <br/> (PER PARTE IN ALLUMINIO) RAL:</h2>
                                             </div>
 
                                         </div>

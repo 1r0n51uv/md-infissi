@@ -27,7 +27,7 @@ class MinimaliHome extends Component {
 
                             <div className="container center-block text-center">
 
-                                <Link to="ekuPerfectionStrutturale">
+                                <Link to="minimali_TT/ekuPerfectionStrutturale">
                                     <div className="col-md-push-1 col-md-4 col-sm-6 text-center center-block" style={{marginTop: '5%'}}>
 
                                         <img src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FMinimaliTT%2F184_n_COTTODESTE-BLACK-WHITE-SNOW-3plus-100X100%20copia%203.jpg?alt=media&token=5e2966ca-585c-4174-af1d-1217d5e7a4aa"
@@ -38,7 +38,7 @@ class MinimaliHome extends Component {
                                     </div>
                                 </Link>
 
-                                <Link to="ekuPerfectionSlide">
+                                <Link to="minimali_TT/ekuPerfectionSlide">
                                     <div className="col-md-push-3 col-md-4 col-sm-6 text-center center-block" style={{marginTop: '5%'}}>
 
                                         <img src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FMinimaliTT%2F184_n_COTTODESTE-BLACK-WHITE-SNOW-3plus-100X100%20copia%202.jpg?alt=media&token=0f79393c-d4cc-4689-9980-0ff0511c610a"
@@ -49,7 +49,7 @@ class MinimaliHome extends Component {
                                     </div>
                                 </Link>
 
-                                <Link to="maxvision">
+                                <Link to="minimali_TT/maxvision">
                                     <div className="col-md-6 col-sm-6 text-center center-block" style={{marginTop: '5%'}}>
 
                                         <img src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/products%2Fserramenti%2FMinimaliTT%2FSenza%20titol3o.png?alt=media&token=54d0622b-087c-4a5b-8fc6-2591bf64f97f"

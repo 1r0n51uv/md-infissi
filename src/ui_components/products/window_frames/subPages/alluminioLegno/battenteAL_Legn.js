@@ -165,7 +165,7 @@ class BattenteAlLegn extends Component {
 
                                     <div className="col-md-12">
                                         <div className="tittle wow fadeInUp">
-                                            <h2>La nostra gamma di colori <br/> (PER PARTE IN ALLUMINIO) RAL:</h2>
+                                            <h2>La nostra gamma di colori <br/> (PER PARTE IN ALLUMINIO) RAL:</h2>
                                         </div>
 
                                     </div>

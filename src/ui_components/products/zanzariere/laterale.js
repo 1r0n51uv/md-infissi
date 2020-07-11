@@ -16,7 +16,7 @@ class Laterale extends Component {
                                 <h3 style={{textAlign: 'left'}}>La zanzariera, avvolgibile a scorrimento laterale,
                                     è perfetta per essere posizionata in vani dove sono frequenti i passaggi di persone.
                                     Il vantaggio è soprattutto derivante dal fatto che si tratta di una <b>zanzariera che si
-                                        ferma in qualsiasi posto</b>.E' risaputo inoltre che, le <b>zanzariere con cingoli</b>
+                                        ferma in qualsiasi posto</b>.E' risaputo inoltre che, le <b>zanzariere con cingoli</b>
                                     riescono efficacemente ad impedire la fuoriuscita delle stesse, causata da vento o da urti improvvisi.
                                     La zanzariera AVVOLGIBILE A SCORRIMENTO LATERALE può essere realizzata ad anta singola o doppia, a
                                     seconda della superficie che è chiamata a ricoprire.</h3>

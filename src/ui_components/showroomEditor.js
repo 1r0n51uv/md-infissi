@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import firebase, {onLog} from "firebase";
 import CustomUploadButton from 'react-firebase-file-uploader/lib/CustomUploadButton';
-//import {ProgressBar} from "react-bootstrap";
-//import ResponsiveGallery from 'react-responsive-gallery';
+import {ProgressBar} from "react-bootstrap";
+import ResponsiveGallery from 'react-responsive-gallery';
 
 
 class ShowroomEditor extends Component {
@@ -87,16 +87,16 @@ class ShowroomEditor extends Component {
                         >
                             Carica Foto
                         </CustomUploadButton>
-                        {//this.state.isUploading && <ProgressBar now={this.state.progress}/>
-                             }
+                        this.state.isUploading && <ProgressBar now={this.state.progress}/>
+
 
                     </div>
 
                     <hr/>
                     <div className="container">
 
-                        {//<ResponsiveGallery useLightBox={true} images={this.state.images}/>
-                        }
+                        <ResponsiveGallery useLightBox={true} images={this.state.images}/>
+
                     </div>
 
                 </section>

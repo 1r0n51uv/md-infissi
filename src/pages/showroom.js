@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import firebase from "firebase";
-//import ResponsiveGallery from "react-responsive-gallery";
+import ResponsiveGallery from "react-responsive-gallery";
 
 class Showroom extends Component {
     constructor(props) {
@@ -36,8 +36,8 @@ class Showroom extends Component {
 
 
                     <div className="container">
-                        {//<ResponsiveGallery useLightBox={true} images={this.state.images}/>
-                        }
+                        <ResponsiveGallery useLightBox={true} images={this.state.images}/>
+
                         </div>
 
                 </section>
