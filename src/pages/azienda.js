@@ -42,7 +42,7 @@ class Azienda extends Component {
                               <img
                                   style={{marginTop: '5%'}}
                                   className="cardBox2"
-                                  src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/Senza%20titolo.png?alt=media&token=4ae2860a-6861-4af5-8dc2-076d023233e4" alt=""/>
+                                  src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/Immagine1.jpg?alt=media&token=9e4a4e19-b560-4a28-b3c2-f2f9cc690144" alt=""/>
 
 
                           </div>

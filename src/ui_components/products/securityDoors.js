@@ -97,30 +97,30 @@ class SecurityDoors extends Component {
 
                                 <hr/>
 
-                                <h4><b>Telaio:</b> in acciaio zincato spessore 20/10 verniciato a polvere epossidica di colore standard nero, registrabile per una facile posa in opera;</h4>
+                                <h4><b>Telaio:</b> in acciaio zincato spessore 20/10 verniciato a polvere epossidica di colore standard nero, registrabile per una facile posa in opera;</h4>
 
                                 <hr/>
 
-                                <h4><b>Struttura perimetrale:</b> realizzata in alluminio verniciato a polvere epossidica di colore standard nero;</h4>
+                                <h4><b>Struttura perimetrale:</b> realizzata in alluminio verniciato a polvere epossidica di colore standard nero;</h4>
 
                                 <hr/>
-                                <h4><b>Pannelli di rivestimento:</b> disponibili nelle diverse serie dei lisci, massello, pantografati basic, elite ed effetto massello, alluminio, PVC, pietra, vetro;</h4>
-
-                                <hr/>
-
-                                <h4><b>Maniglieria:</b> pomolo esterno, posizionabile a centro porta o lateralmente, e maniglia interna in alluminio anodizzato bronzo o color argento ( finiture standard);</h4>
+                                <h4><b>Pannelli di rivestimento:</b> disponibili nelle diverse serie dei lisci, massello, pantografati basic, elite ed effetto massello, alluminio, PVC, pietra, vetro;</h4>
 
                                 <hr/>
 
-                                <h4><b>Lama parafreddo:</b> sigilla la porta al pavimento evitando spifferi d’aria e lame di luce. Azionando la chiusura, la lama si abbassa progressivamente;</h4>
+                                <h4><b>Maniglieria:</b> pomolo esterno, posizionabile a centro porta o lateralmente, e maniglia interna in alluminio anodizzato bronzo o color argento ( finiture standard);</h4>
 
                                 <hr/>
 
-                                <h4><b>Spioncino:</b> a tutto campo, consente un’ampia visuale;</h4>
+                                <h4><b>Lama parafreddo:</b> sigilla la porta al pavimento evitando spifferi d’aria e lame di luce. Azionando la chiusura, la lama si abbassa progressivamente;</h4>
 
                                 <hr/>
 
-                                <h4><b>Dispositivo antischeda in acciaio e registro scrocco:</b> apposto sul telaio, impedisce l’apertura della porta con l’inserimento di schede o di altri oggetti sottili, anche se non sono state girate le mandate;</h4>
+                                <h4><b>Spioncino:</b> a tutto campo, consente un’ampia visuale;</h4>
+
+                                <hr/>
+
+                                <h4><b>Dispositivo antischeda in acciaio e registro scrocco:</b> apposto sul telaio, impedisce l’apertura della porta con l’inserimento di schede o di altri oggetti sottili, anche se non sono state girate le mandate;</h4>
 
                                 <hr/>
 

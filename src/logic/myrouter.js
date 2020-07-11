@@ -32,6 +32,8 @@ import Maxvision from "../ui_components/products/minmaliTT/maxvision";
 import Md68 from "../ui_components/products/window_frames/subPages/pvc/battentePVC/md68";
 import Md80 from "../ui_components/products/window_frames/subPages/pvc/battentePVC/md80";
 import S8000 from "../ui_components/products/window_frames/subPages/pvc/battentePVC/s8000";
+import Showroom from "../pages/showroom";
+import Admin from "../pages/admin";
 
 
 class Myrouter extends Component {
@@ -83,6 +85,10 @@ class Myrouter extends Component {
                     <Route path="/battente_pvc/md68" component={Md68}/>
                     <Route path="/battente_pvc/md80" component={Md80}/>
                     <Route path="/battente_pvc/s8000" component={S8000}/>
+
+                    <Route path="/showroom" component={Showroom} />
+
+                    <Route path="/admin" component={Admin} />
 
 
                     <Footer/>

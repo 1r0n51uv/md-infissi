@@ -98,7 +98,7 @@ class Contacts extends Component {
                                     <img
                                         style={{borderRadius: '20px'}}
                                         className="cardBox img-responsive"
-                                        src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/contacts%2F2451377.jpg?alt=media&token=d3ad7b5f-0bca-44a9-9773-6bf0e96ccb43" alt=""/>
+                                        src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/2451377.jpg?alt=media&token=a91d3214-0830-40c8-8cec-066392f0873b" alt=""/>
                                 </div>
                             </div>
 

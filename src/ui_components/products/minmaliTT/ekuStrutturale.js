@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import ColourCard from "../window_frames/components/colourCard";
 
 class EkuStrutturale extends Component {
     render() {
