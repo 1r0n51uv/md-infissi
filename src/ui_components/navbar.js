@@ -19,21 +19,20 @@ class Navbar extends Component {
 
                             <a className="navbar-brand" href="home">
                                 <img
-
                                     src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/Schermata%202020-06-03%20alle%2022.44.41.png?alt=media&token=002a9406-d717-4a78-8323-dd23b5e9acbd"
                                     alt=""
                                     className="img-responsive"
-                                    style={{width: '48%'}}
+                                    style={{width: '50%'}}
                                 />
+
                             </a>
 
                         </div>
                     </div>
 
                     <div className="col-md-10 p0">
-                        <div className="collapse navbar-collapse" id="min_navbar">
+                        <div className="collapse navbar-collapse"  style={{marginTop: "4%"}} id="min_navbar">
                             <ul className="nav navbar-nav navbar-right">
-
 
                                 <li>
                                     <Link to="/home">Home</Link>
