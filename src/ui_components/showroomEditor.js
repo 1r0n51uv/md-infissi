@@ -87,7 +87,7 @@ class ShowroomEditor extends Component {
                         >
                             Carica Foto
                         </CustomUploadButton>
-                        this.state.isUploading && <ProgressBar now={this.state.progress}/>
+                        {this.state.isUploading && <ProgressBar now={this.state.progress}/>}
 
 
                     </div>

@@ -23,7 +23,7 @@ class Navbar extends Component {
                                     src="https://firebasestorage.googleapis.com/v0/b/mdinfissi-dd57c.appspot.com/o/Schermata%202020-06-03%20alle%2022.44.41.png?alt=media&token=002a9406-d717-4a78-8323-dd23b5e9acbd"
                                     alt=""
                                     className="img-responsive"
-                                    style={{width: '50%'}}
+                                    style={{width: '48%'}}
                                 />
                             </a>
 
