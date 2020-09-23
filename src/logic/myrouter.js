@@ -34,7 +34,7 @@ import Md80 from "../ui_components/products/window_frames/subPages/pvc/battenteP
 import S8000 from "../ui_components/products/window_frames/subPages/pvc/battentePVC/s8000";
 import Showroom from "../pages/showroom";
 import Admin from "../pages/admin";
-import Navbar2 from "../ui_components/navbar2";
+
 
 
 class Myrouter extends Component {
