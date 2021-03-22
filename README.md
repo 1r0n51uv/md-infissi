@@ -2,47 +2,34 @@
 [![Depfu](https://badges.depfu.com/badges/33d5ed0bfc9b31dd32f3bbaddcff880e/count.svg)](https://depfu.com/github/1r0n51uv/md-infissi?project_id=10006)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/09c1133c-cf97-4fb9-b69d-f9b63d505642/deploy-status)](https://app.netlify.com/sites/mdinfissi/deploys)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Showcase Site
 
-## Available Scripts
+SPA of a company that designs and manufactures ALUMINUM-ALUMINUM / WOOD-PVC window frames
 
-In the project directory, you can run:
+## Technologies
 
-### `npm start`
+<ul>
+  <li>React</li>
+   <li>Firebase</li>
+   <li>Bootstrap</li>
+   <li>Various Libraries (ex. react-router-dom, react-responsive-modal)</li>
+  </ul>
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Online :heavy_check_mark:
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Deployed on [Netlify.com](https://netlify.com/), Serverless, based on Github repo
 
-### `npm test`
+[MDinfissi.it](https://mdinfissi.it/)
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+![Alt text](https://firebasestorage.googleapis.com/v0/b/sevamm-f9e0c.appspot.com/o/mdinfissi%2FSchermata%202021-03-22%20alle%2012.24.50.png?alt=media&token=56c47497-5722-487f-8e41-0c4e460bfd45)
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Alt text](https://firebasestorage.googleapis.com/v0/b/sevamm-f9e0c.appspot.com/o/mdinfissi%2FSchermata%202021-03-22%20alle%2012.25.00.png?alt=media&token=fb994f53-6256-4688-a2e2-44fe0e54cf84)
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+![Alt text](https://firebasestorage.googleapis.com/v0/b/sevamm-f9e0c.appspot.com/o/mdinfissi%2FSchermata%202021-03-22%20alle%2012.25.42.png?alt=media&token=235bdbc3-e338-467d-85d3-52be5782f1ce)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## About me
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Check out my portfolio [SevAmm.ml](https://sevamm.ml)
